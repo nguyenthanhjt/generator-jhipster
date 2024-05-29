@@ -19,12 +19,14 @@
 import chalk from 'chalk';
 import { packageJson } from '../lib/index.js';
 
-export default `${chalk.green('        ██╗')}${chalk.red(' ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗')}
-${chalk.green('        ██║')}${chalk.red(' ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗')}
-${chalk.green('        ██║')}${chalk.red(' ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝')}
-${chalk.green('  ██╗   ██║')}${chalk.red(' ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║')}
-${chalk.green('  ╚██████╔╝')}${chalk.red(' ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗')}
-${chalk.green('   ╚═════╝ ')}${chalk.red(' ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝')}
-                            https://www.jhipster.tech
-${chalk.white('Welcome to JHipster')} ${chalk.yellow(`v${packageJson.version}`)}
+export default `
+${chalk.greenBright(' ████████╗██████╗ ██╗███╗   ██╗██╗████████╗██╗   ██╗ ')}${chalk.white('   ███████╗████████╗ █████╗ ██████╗ ████████╗███████╗██████╗ ')}
+${chalk.greenBright(' ╚══██╔══╝██╔══██╗██║████╗  ██║██║╚══██╔══╝╚██╗ ██╔╝ ')}${chalk.white('   ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗')}
+${chalk.greenBright('    ██║   ██████╔╝██║██╔██╗ ██║██║   ██║    ╚████╔╝  ')}${chalk.white('   ███████╗   ██║   ███████║██████╔╝   ██║   █████╗  ██████╔╝')}
+${chalk.greenBright('    ██║   ██╔══██╗██║██║╚██╗██║██║   ██║     ╚██╔╝   ')}${chalk.white('   ╚════██║   ██║   ██╔══██║██╔══██╗   ██║   ██╔══╝  ██╔══██╗')}
+${chalk.greenBright('    ██║   ██║  ██║██║██║ ╚████║██║   ██║      ██║    ')}${chalk.white('   ███████║   ██║   ██║  ██║██║  ██║   ██║   ███████╗██║  ██║')}
+${chalk.greenBright('    ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝      ╚═╝    ')}${chalk.white('   ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝')}
+                            https://www.trinity-technology.com
+${chalk.white('Welcome to Trinity')} ${chalk.yellow(`v${packageJson.version}`)}
 `;
+
