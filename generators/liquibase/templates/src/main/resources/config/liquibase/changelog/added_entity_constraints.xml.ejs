@@ -1,7 +1,7 @@
 <%#
- Copyright 2013-2024 the original author or authors from the JHipster project.
+ Copyright 2013-2024 the original author or authors from the Trinity Platform project.
 
- This file is part of the JHipster project, see https://www.jhipster.tech/
+ This file is part of the Trinity Platform project, see https://www.trinity-technology.com/
  for more information.
 
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,7 +26,7 @@
     relationshipName = relationship.relationshipName,
     ownerSide = relationship.ownerSide,
     otherEntityTableName = relationship.otherEntityTableName,
-    onDelete = relationship.onDelete, 
+    onDelete = relationship.onDelete,
     onUpdate = relationship.onUpdate;
     if (relationshipType === 'many-to-one' || (relationshipType === 'one-to-one' && ownerSide)) {
         const constraintName = this.getFKConstraintName(entity.entityTableName, relationshipName, prodDatabaseType);
@@ -44,7 +44,7 @@
                                  constraintName="<%= constraintName %>"
                                  referencedColumnNames="<%= referencedColumnNames %>"
                                  referencedTableName="<%= otherEntityTableName %>"
-            <%_ if (onDelete) { _%>                                 
+            <%_ if (onDelete) { _%>
                                  onDelete="<%= onDelete %>"
             <%_ } _%>
             <%_ if (onUpdate) { _%>
@@ -58,7 +58,7 @@
                                  constraintName="<%= relationship.joinTable.constraintName %>"
                                  referencedColumnNames="<%= entity.primaryKey.fields.map(field => field.columnName).join(', ') %>"
                                  referencedTableName="<%= entity.entityTableName %>"
-            <%_ if (onDelete) { _%>                                 
+            <%_ if (onDelete) { _%>
                                  onDelete="<%= onDelete %>"
             <%_ } _%>
             <%_ if (onUpdate) { _%>
@@ -71,10 +71,10 @@
                                  constraintName="<%= relationship.joinTable.otherConstraintName %>"
                                  referencedColumnNames="<%= relationship.otherEntity.primaryKey.fields.map(field => field.columnName).join(', ') %>"
                                  referencedTableName="<%= relationship.otherEntity.entityTableName %>"
-            <%_ if (relationship.otherRelationship) { 
+            <%_ if (relationship.otherRelationship) {
                 // User object is not supporting this right now
                 _%>
-                <%_ if (relationship.otherRelationship.onDelete) { _%>                                 
+                <%_ if (relationship.otherRelationship.onDelete) { _%>
                                  onDelete="<%= relationship.otherRelationship.onDelete %>"
                 <%_ } _%>
                 <%_ if (relationship.otherRelationship.onUpdate) { _%>

@@ -1,7 +1,7 @@
 <%#
- Copyright 2013-2024 the original author or authors from the JHipster project.
+ Copyright 2013-2024 the original author or authors from the Trinity Platform project.
 
- This file is part of the JHipster project, see https://www.jhipster.tech/
+ This file is part of the Trinity Platform project, see https://www.trinity-technology.com/
  for more information.
 
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -47,7 +47,7 @@ describe('MetricsModalThreadsComponent', () => {
     it('should count threads on init', () => {
       // GIVEN
       comp.threads = [
-        { 
+        {
             threadName: '',
             threadId: 1,
             blockedTime: 1,
@@ -67,7 +67,7 @@ describe('MetricsModalThreadsComponent', () => {
             lockedSynchronizers: [],
             lockInfo: null
         },
-        { 
+        {
             threadName: '',
             threadId: 2,
             blockedTime: 2,
@@ -87,7 +87,7 @@ describe('MetricsModalThreadsComponent', () => {
             lockedSynchronizers: [],
             lockInfo: null
         },
-        { 
+        {
             threadName: '',
             threadId: 3,
             blockedTime: 3,
@@ -107,7 +107,7 @@ describe('MetricsModalThreadsComponent', () => {
             lockedSynchronizers: [],
             lockInfo: null
         },
-        { 
+        {
             threadName: '',
             threadId: 4,
             blockedTime: 4,
@@ -201,7 +201,7 @@ describe('MetricsModalThreadsComponent', () => {
   describe('getThreads', () => {
     it('should return blocked threads', () => {
       // GIVEN
-      const thread1 = { 
+      const thread1 = {
         threadName: '',
         threadId: 1,
         blockedTime: 1,
@@ -221,7 +221,7 @@ describe('MetricsModalThreadsComponent', () => {
         lockedSynchronizers: [],
         lockInfo: null
       };
-      const thread2 = { 
+      const thread2 = {
         threadName: '',
         threadId: 2,
         blockedTime: 2,
@@ -268,7 +268,7 @@ describe('MetricsModalThreadsComponent', () => {
 
     it('should return all threads if there is no filter', () => {
       // GIVEN
-      const thread1 = { 
+      const thread1 = {
         threadName: '',
         threadId: 1,
         blockedTime: 1,
@@ -288,7 +288,7 @@ describe('MetricsModalThreadsComponent', () => {
         lockedSynchronizers: [],
         lockInfo: null
       };
-      const thread2 = { 
+      const thread2 = {
         threadName: '',
         threadId: 2,
         blockedTime: 2,

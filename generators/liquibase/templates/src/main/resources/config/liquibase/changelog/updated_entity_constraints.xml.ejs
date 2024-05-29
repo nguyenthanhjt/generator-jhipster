@@ -1,7 +1,7 @@
 <%#
- Copyright 2013-2024 the original author or authors from the JHipster project.
+ Copyright 2013-2024 the original author or authors from the Trinity Platform project.
 
- This file is part of the JHipster project, see https://www.jhipster.tech/
+ This file is part of the Trinity Platform project, see https://www.trinity-technology.com/
  for more information.
 
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -122,7 +122,7 @@ if (hasFieldConstraint) { _%>
                                  constraintName="<%= constraintName %>"
                                  referencedColumnNames="id"
                                  referencedTableName="<%= relationship.otherEntityTableName %>"
-            <%_ if (onDelete) { _%>                                 
+            <%_ if (onDelete) { _%>
                                  onDelete="<%= onDelete %>"
             <%_ } _%>
             <%_ if (onUpdate) { _%>
@@ -139,7 +139,7 @@ if (hasFieldConstraint) { _%>
                                  constraintName="<%= constraintName %>"
                                  referencedColumnNames="<%= entity.primaryKey.fields.map(field => field.columnName).join(', ') %>"
                                  referencedTableName="<%= entityTableName %>"
-            <%_ if (onDelete) { _%>                                 
+            <%_ if (onDelete) { _%>
                                  onDelete="<%= onDelete %>"
             <%_ } _%>
             <%_ if (onUpdate) { _%>
@@ -152,10 +152,10 @@ if (hasFieldConstraint) { _%>
                                  constraintName="<%= otherEntityConstraintName %>"
                                  referencedColumnNames="<%= relationship.otherEntity.primaryKey.fields.map(field => field.columnName).join(', ') %>"
                                  referencedTableName="<%= relationship.otherEntityTableName %>"
-            <%_ if (relationship.otherRelationship) { 
+            <%_ if (relationship.otherRelationship) {
                 // User object is not supporting this right now
                 _%>
-                <%_ if (relationship.otherRelationship.onDelete) { _%>                                 
+                <%_ if (relationship.otherRelationship.onDelete) { _%>
                                  onDelete="<%= relationship.otherRelationship.onDelete %>"
                 <%_ } _%>
                 <%_ if (relationship.otherRelationship.onUpdate) { _%>
