@@ -77,7 +77,8 @@
   "main": "./dist/generators/index.js",
   "types": "./dist/types/generators/index.d.ts",
   "bin": {
-    "jhipster": "dist/cli/jhipster.cjs"
+    "jhipster": "dist/cli/jhipster.cjs",
+    "trinity": "dist/cli/trinity.cjs"
   },
   "files": [
     "dist",
