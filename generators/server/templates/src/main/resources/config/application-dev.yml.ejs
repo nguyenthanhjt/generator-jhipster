@@ -21,8 +21,6 @@
 #
 # This configuration overrides the application.yml file.
 #
-# More information on profiles: https://www.jhipster.tech/profiles/
-# More information on configuration properties: https://www.jhipster.tech/common-application-properties/
 # ===================================================================
 
 # ===================================================================
@@ -49,7 +47,7 @@ eureka:
     prefer-ip-address: true
   client:
   <%_ if (applicationTypeMonolith) { _%>
-    enabled: false # By default, the JHipster Registry is not used in the "dev" profile
+    enabled: false # By default, the Trinity Registry is not used in the "dev" profile
   <%_ } _%>
     service-url:
       defaultZone: http://admin:${jhipster.registry.password}@localhost:8761/eureka/
@@ -205,9 +203,8 @@ server:
   port: <%= serverPort %>
 
 # ===================================================================
-# JHipster specific properties
+# Trinity specific properties
 #
-# Full reference is available at: https://www.jhipster.tech/common-application-properties/
 # ===================================================================
 
 jhipster:
@@ -285,7 +282,7 @@ jhipster:
 <%_ if (!applicationTypeMicroservice) { _%>
   # CORS is only enabled by default with the "dev" profile
   cors:
-    # Allow Ionic for JHipster by default (* no longer allowed in Spring Boot 2.4+)
+    # Allow Ionic for Trinity by default (* no longer allowed in Spring Boot 2.4+)
   <%_ if (microfrontend) { _%>
     # Ports <%= devServerPort + 1 %>-<%= devServerPort + 9 %> are allowed for microfrontend development
   <%_ } _%>
@@ -329,7 +326,7 @@ jhipster:
       key: <%= rememberMeKey %>
 <%_ } _%>
 <%_ if (generateUserManagement) { _%>
-  mail: # specific JHipster mail property, for standard properties see MailProperties
+  mail: # specific Trinity mail property, for standard properties see MailProperties
     base-url: http://127.0.0.1:<%= serverPort %>
 <%_ } _%>
   logging:
@@ -343,10 +340,10 @@ jhipster:
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class
-# to have type-safe configuration, like in the JHipsterProperties above
+# to have type-safe configuration, like in the TrinityProperties above
 #
 # More documentation is available at:
-# https://www.jhipster.tech/common-application-properties/
+#  https://www.trinity-technology.com
 # ===================================================================
 
 # application:

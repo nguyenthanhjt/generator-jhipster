@@ -4,7 +4,7 @@ import { pipeline } from 'p-transform';
 import generatedAnnotationTransform from './generated-annotation-transform.js';
 
 describe('generators - java - generated-annotation-transform', () => {
-  it('should add GeneratedByJHipster to interface', async () => {
+  it('should add GeneratedByTrinity to interface', async () => {
     const file = {
       contents: Buffer.from(`package package.name;
 
@@ -16,14 +16,14 @@ interface Foo {
     expect(file.contents.toString()).toMatchInlineSnapshot(`
 "package package.name;
 
-import generated.by.package.GeneratedByJHipster;
-@GeneratedByJHipster
+import generated.by.package.GeneratedByTrinity;
+@GeneratedByTrinity
 interface Foo {
 }"
 `);
   });
 
-  it('should add GeneratedByJHipster to @interface', async () => {
+  it('should add GeneratedByTrinity to @interface', async () => {
     const file = {
       contents: Buffer.from(`package package.name;
 
@@ -35,8 +35,8 @@ interface Foo {
     expect(file.contents.toString()).toMatchInlineSnapshot(`
 "package package.name;
 
-import generated.by.package.GeneratedByJHipster;
-@GeneratedByJHipster
+import generated.by.package.GeneratedByTrinity;
+@GeneratedByTrinity
 @interface Foo {
 }"
 `);

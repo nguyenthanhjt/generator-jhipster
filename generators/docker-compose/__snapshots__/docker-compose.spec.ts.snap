@@ -133,7 +133,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   mscouchbase:
     image: mscouchbase
     environment:
@@ -173,7 +173,7 @@ jhipster:
     environment:
       - TYPE=MASTER
       - BUCKET=mscouchbase
-  
+
   consul:
     image: consul-placeholder
     ports:
@@ -324,7 +324,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   mscassandra:
     image: mscassandra
     environment:
@@ -371,7 +371,7 @@ jhipster:
       interval: 5s
       timeout: 25s
       retries: 20
-  
+
   consul:
     image: consul-placeholder
     ports:
@@ -577,7 +577,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   msmysql:
     image: msmysql
     environment:
@@ -617,7 +617,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   mspsql:
     image: mspsql
     environment:
@@ -671,7 +671,7 @@ jhipster:
       interval: 5s
       timeout: 10s
       retries: 10
-  
+
   msmongodb:
     image: msmongodb
     environment:
@@ -707,7 +707,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   msmariadb:
     image: msmariadb
     environment:
@@ -747,7 +747,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   consul:
     image: consul-placeholder
     ports:
@@ -924,7 +924,7 @@ jhipster:
       - SPRING_CLOUD_CONSUL_PORT=8500
       - SPRING_R2DBC_URL=r2dbc:mysql://jhgate-mysql:3306/jhgate?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&createDatabaseIfNotExist=true
       - SPRING_LIQUIBASE_URL=jdbc:mysql://jhgate-mysql:3306/jhgate?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&createDatabaseIfNotExist=true
-      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/jhipster
+      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/trinity
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=web_app
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=web_app
     ports:
@@ -960,7 +960,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   msmysql:
     image: msmysql
     environment:
@@ -971,7 +971,7 @@ jhipster:
       - SPRING_CLOUD_CONSUL_PORT=8500
       - SPRING_DATASOURCE_URL=jdbc:mysql://msmysql-mysql:3306/msmysql?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&createDatabaseIfNotExist=true
       - SPRING_LIQUIBASE_URL=jdbc:mysql://msmysql-mysql:3306/msmysql?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&createDatabaseIfNotExist=true
-      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/jhipster
+      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/trinity
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=internal
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=internal
     healthcheck:
@@ -1005,7 +1005,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   mspsql:
     image: mspsql
     environment:
@@ -1016,7 +1016,7 @@ jhipster:
       - SPRING_CLOUD_CONSUL_PORT=8500
       - SPRING_DATASOURCE_URL=jdbc:postgresql://mspsql-postgresql:5432/mspsql
       - SPRING_LIQUIBASE_URL=jdbc:postgresql://mspsql-postgresql:5432/mspsql
-      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/jhipster
+      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/trinity
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=internal
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=internal
       - SPRING_ELASTICSEARCH_URIS=http://mspsql-elasticsearch:9200
@@ -1064,7 +1064,7 @@ jhipster:
       interval: 5s
       timeout: 10s
       retries: 10
-  
+
   mscouchbase:
     image: mscouchbase
     environment:
@@ -1075,7 +1075,7 @@ jhipster:
       - SPRING_CLOUD_CONSUL_PORT=8500
       - SPRING_COUCHBASE_CONNECTION_STRING=mscouchbase-couchbase
       - JHIPSTER_DATABASE_COUCHBASE_BUCKET_NAME=mscouchbase
-      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/jhipster
+      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/trinity
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=internal
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=internal
       - JHIPSTER_SLEEP=20
@@ -1108,7 +1108,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   msmariadb:
     image: msmariadb
     environment:
@@ -1119,7 +1119,7 @@ jhipster:
       - SPRING_CLOUD_CONSUL_PORT=8500
       - SPRING_DATASOURCE_URL=jdbc:mariadb://msmariadb-mariadb:3306/msmariadb?useLegacyDatetimeCode=false
       - SPRING_LIQUIBASE_URL=jdbc:mariadb://msmariadb-mariadb:3306/msmariadb?useLegacyDatetimeCode=false
-      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/jhipster
+      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/trinity
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=internal
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=internal
     healthcheck:
@@ -1153,7 +1153,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   consul:
     image: consul-placeholder
     ports:
@@ -1194,7 +1194,7 @@ jhipster:
 ",
     "stateCleared": "modified",
   },
-  "realm-config/jhipster-realm.json": {
+  "realm-config/trinity-realm.json": {
     "contents": Any<String>,
     "stateCleared": "modified",
   },
@@ -1386,7 +1386,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   msmysql:
     image: msmysql
     environment:
@@ -1426,7 +1426,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   mspsql:
     image: mspsql
     environment:
@@ -1480,7 +1480,7 @@ jhipster:
       interval: 5s
       timeout: 10s
       retries: 10
-  
+
   msmongodb:
     image: msmongodb
     environment:
@@ -1514,7 +1514,7 @@ jhipster:
   msmongodb-mongodb:
     image: mongodb-placeholder
     command: mongos --configdb csvr/msmongodb-mongodb-config --bind_ip 0.0.0.0
-  
+
   consul:
     image: consul-placeholder
     ports:
@@ -1721,7 +1721,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   msmysql:
     image: msmysql
     environment:
@@ -1761,7 +1761,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   mspsql:
     image: mspsql
     environment:
@@ -1815,7 +1815,7 @@ jhipster:
       interval: 5s
       timeout: 10s
       retries: 10
-  
+
   mscouchbase:
     image: mscouchbase
     environment:
@@ -1854,7 +1854,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   msmariadb:
     image: msmariadb
     environment:
@@ -1894,7 +1894,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   consul:
     image: consul-placeholder
     ports:
@@ -2046,7 +2046,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   msmysql:
     image: msmysql
     environment:
@@ -2086,7 +2086,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   consul:
     image: consul-placeholder
     ports:
@@ -2238,7 +2238,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   msmysql:
     image: msmysql
     environment:
@@ -2278,7 +2278,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   consul:
     image: consul-placeholder
     ports:
@@ -2455,7 +2455,7 @@ management:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   msmysql:
     image: msmysql
     environment:
@@ -2495,7 +2495,7 @@ management:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   consul:
     image: consul-placeholder
     ports:
@@ -2736,7 +2736,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   msmysql:
     image: msmysql
     environment:
@@ -2776,7 +2776,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   consul:
     image: consul-placeholder
     ports:
@@ -2910,7 +2910,7 @@ Launch all your infrastructure by running: \`docker compose up -d\`.
       interval: 5s
       timeout: 10s
       retries: 10
-  
+
 ",
     "stateCleared": "modified",
   },
@@ -3027,7 +3027,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   consul:
     image: consul-placeholder
     ports:
@@ -3161,7 +3161,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   consul:
     image: consul-placeholder
     ports:
@@ -3293,7 +3293,7 @@ jhipster:
       interval: 5s
       timeout: 5s
       retries: 10
-  
+
   consul:
     image: consul-placeholder
     ports:
@@ -3387,7 +3387,7 @@ Launch all your infrastructure by running: \`docker compose up -d\`.
       interval: 5s
       timeout: 5s
       retries: 40
-  
+
 ",
     "stateCleared": "modified",
   },

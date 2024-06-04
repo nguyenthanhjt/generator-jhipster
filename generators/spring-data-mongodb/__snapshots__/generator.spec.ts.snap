@@ -44,7 +44,7 @@ exports[`generator - mongodb gateway-jwt-gradle-enableTranslation(true)-com.myco
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -505,7 +505,7 @@ exports[`generator - mongodb microservice-jwt-reactive(false)-maven-enableTransl
   "src/main/java/tech/jhipster/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/tech/jhipster/GeneratedByJHipster.java": {
+  "src/main/java/tech/jhipster/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/tech/jhipster/JhipsterApp.java": {
@@ -834,7 +834,7 @@ exports[`generator - mongodb microservice-jwt-reactive(true)-gradle-enableTransl
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -1172,7 +1172,7 @@ exports[`generator - mongodb microservice-oauth2-reactive(true)-gradle-enableTra
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -1480,7 +1480,7 @@ exports[`generator - mongodb monolith-jwt-reactive(false)-maven-enableTranslatio
   "src/main/java/tech/jhipster/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/tech/jhipster/GeneratedByJHipster.java": {
+  "src/main/java/tech/jhipster/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/tech/jhipster/JhipsterApp.java": {
@@ -1974,7 +1974,7 @@ exports[`generator - mongodb monolith-jwt-reactive(true)-gradle-enableTranslatio
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -2309,7 +2309,7 @@ exports[`generator - mongodb monolith-oauth2-reactive(false)-maven-enableTransla
   "src/main/java/tech/jhipster/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/tech/jhipster/GeneratedByJHipster.java": {
+  "src/main/java/tech/jhipster/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/tech/jhipster/JhipsterApp.java": {
@@ -2668,7 +2668,7 @@ exports[`generator - mongodb monolith-oauth2-reactive(true)-gradle-enableTransla
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -3012,7 +3012,7 @@ exports[`generator - mongodb monolith-session-reactive(false)-maven-enableTransl
   "src/main/java/tech/jhipster/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/tech/jhipster/GeneratedByJHipster.java": {
+  "src/main/java/tech/jhipster/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/tech/jhipster/JhipsterApp.java": {
@@ -3473,7 +3473,7 @@ exports[`generator - mongodb monolith-session-reactive(true)-gradle-enableTransl
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {

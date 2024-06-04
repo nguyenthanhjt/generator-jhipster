@@ -22,8 +22,6 @@
 # This configuration will be overridden by the Spring profile you use,
 # for example application-dev.yml if you use the "dev" profile.
 #
-# More information on profiles: https://www.jhipster.tech/profiles/
-# More information on configuration properties: https://www.jhipster.tech/common-application-properties/
 # ===================================================================
 
 # ===================================================================
@@ -350,7 +348,7 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: http://localhost:9080/realms/jhipster
+            issuer-uri: http://localhost:9080/realms/trinity
         registration:
           oidc:
     <%_ if (applicationTypeMicroservice) { _%>
@@ -405,9 +403,8 @@ info:
   display-ribbon-on-profiles: "dev"
 
 # ===================================================================
-# JHipster specific properties
+# Trinity specific properties
 #
-# Full reference is available at: https://www.jhipster.tech/common-application-properties/
 # ===================================================================
 
 jhipster:
@@ -457,10 +454,10 @@ jhipster:
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class
-# to have type-safe configuration, like in the JHipsterProperties above
+# to have type-safe configuration, like in the TrinityProperties above
 #
 # More documentation is available at:
-# https://www.jhipster.tech/common-application-properties/
+#  https://www.trinity-technology.com
 # ===================================================================
 
 # application:

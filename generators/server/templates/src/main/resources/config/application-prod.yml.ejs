@@ -293,7 +293,7 @@ jhipster:
         # This token must be encoded using Base64 and be at least 256 bits long (you can type `openssl rand -base64 64` on your command line to generate a 512 bits one)
         # As this is the PRODUCTION configuration, you MUST change the default key, and store it securely:
         <%_ if (serviceDiscoveryEureka) { _%>
-        # - In the JHipster Registry (which includes a Spring Cloud Config server)
+        # - In the Trinity Registry (which includes a Spring Cloud Config server)
         <%_ } else { _%>
         # - In the Consul configserver
         <%_ } _%>
@@ -311,7 +311,7 @@ jhipster:
       key: <%= rememberMeKey %>
 <%_ } _%>
 <%_ if (generateUserManagement) { _%>
-  mail: # specific JHipster mail property, for standard properties see MailProperties
+  mail: # specific Trinity mail property, for standard properties see MailProperties
     base-url: http://my-server-url-to-change # Modify according to your server's URL
 <%_ } _%>
   logging:
@@ -325,10 +325,10 @@ jhipster:
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class
-# to have type-safe configuration, like in the JHipsterProperties above
+# to have type-safe configuration, like in the TrinityProperties above
 #
 # More documentation is available at:
-# https://www.jhipster.tech/common-application-properties/
+#  https://www.trinity-technology.com
 # ===================================================================
 
 # application:

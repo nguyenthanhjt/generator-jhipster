@@ -11,7 +11,7 @@ exports[`generator - java:domain with default config should match files snapshot
   ".yo-rc.json": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/myapp/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/myapp/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/myapp/domain/Authority.java": {

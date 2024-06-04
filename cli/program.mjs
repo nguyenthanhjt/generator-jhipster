@@ -41,7 +41,7 @@ const __dirname = dirname(__filename);
 const { version: JHIPSTER_VERSION } = packageJson;
 const JHIPSTER_NS = CLI_NAME;
 
-const moreInfo = `\n  For more info visit ${chalk.blue('https://www.jhipster.tech')}\n`;
+const moreInfo = `\n  For more info visit ${chalk.blue('https://www.trinity-technology.com/')}\n`;
 
 export const printJHipsterLogo = () => {
   // eslint-disable-next-line no-console

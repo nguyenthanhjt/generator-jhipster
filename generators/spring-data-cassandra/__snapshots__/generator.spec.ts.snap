@@ -44,7 +44,7 @@ exports[`generator - cassandra gateway-jwt-gradle-enableTranslation(true)-com.my
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -499,7 +499,7 @@ exports[`generator - cassandra microservice-jwt-reactive(false)-maven-enableTran
   "src/main/java/tech/jhipster/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/tech/jhipster/GeneratedByJHipster.java": {
+  "src/main/java/tech/jhipster/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/tech/jhipster/JhipsterApp.java": {
@@ -840,7 +840,7 @@ exports[`generator - cassandra microservice-jwt-reactive(true)-gradle-enableTran
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -1193,7 +1193,7 @@ exports[`generator - cassandra microservice-oauth2-reactive(true)-gradle-enableT
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -1516,7 +1516,7 @@ exports[`generator - cassandra monolith-jwt-reactive(false)-maven-enableTranslat
   "src/main/java/tech/jhipster/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/tech/jhipster/GeneratedByJHipster.java": {
+  "src/main/java/tech/jhipster/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/tech/jhipster/JhipsterApp.java": {
@@ -2001,7 +2001,7 @@ exports[`generator - cassandra monolith-jwt-reactive(true)-gradle-enableTranslat
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -2351,7 +2351,7 @@ exports[`generator - cassandra monolith-oauth2-reactive(false)-maven-enableTrans
   "src/main/java/tech/jhipster/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/tech/jhipster/GeneratedByJHipster.java": {
+  "src/main/java/tech/jhipster/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/tech/jhipster/JhipsterApp.java": {
@@ -2722,7 +2722,7 @@ exports[`generator - cassandra monolith-oauth2-reactive(true)-gradle-enableTrans
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -3081,7 +3081,7 @@ exports[`generator - cassandra monolith-session-reactive(false)-maven-enableTran
   "src/main/java/tech/jhipster/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/tech/jhipster/GeneratedByJHipster.java": {
+  "src/main/java/tech/jhipster/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/tech/jhipster/JhipsterApp.java": {
@@ -3533,7 +3533,7 @@ exports[`generator - cassandra monolith-session-reactive(true)-gradle-enableTran
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {

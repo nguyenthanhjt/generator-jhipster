@@ -153,19 +153,19 @@ export default class BootstrapApplicationBase extends BaseApplicationGenerator {
           dockerServicesDir: JAVA_DOCKER_DIR,
           // TODO drop clientPackageManager
           clientPackageManager: ({ nodePackageManager }) => nodePackageManager,
-          hipsterName: 'Java Hipster',
-          hipsterProductName: 'JHipster',
-          hipsterHomePageProductName: 'JHipster',
-          hipsterStackOverflowProductName: 'JHipster',
-          hipsterBugTrackerProductName: 'JHipster',
-          hipsterChatProductName: 'JHipster',
-          hipsterTwitterUsername: '@jhipster',
-          hipsterDocumentationLink: 'https://www.jhipster.tech/',
-          hipsterTwitterLink: 'https://twitter.com/jhipster',
-          hipsterProjectLink: 'https://github.com/jhipster/generator-jhipster',
-          hipsterStackoverflowLink: 'https://stackoverflow.com/tags/jhipster/info',
-          hipsterBugTrackerLink: 'https://github.com/jhipster/generator-jhipster/issues?state=open',
-          hipsterChatLink: 'https://gitter.im/jhipster/generator-jhipster',
+          hipsterName: 'Java Trinity Platform',
+          hipsterProductName: 'Trinity Platform',
+          hipsterHomePageProductName: 'Trinity Platform',
+          hipsterStackOverflowProductName: 'Trinity Platform',
+          hipsterBugTrackerProductName: 'Trinity Platform',
+          hipsterChatProductName: 'Trinity Platform',
+          hipsterTwitterUsername: '@trinitytechonlogy',
+          hipsterDocumentationLink: 'https://www.trinity-technology.com/',
+          hipsterTwitterLink: 'https://twitter.com/#trinitytechnology',
+          hipsterProjectLink: 'https://github.com/trinitytechnology',
+          hipsterStackoverflowLink: 'https://stackoverflow.com/tags/#trinitytechnology',
+          hipsterBugTrackerLink: 'https://github.com/trinitytechnology',
+          hipsterChatLink: 'https://www.trinity-technology.com/',
 
           backendTypeSpringBoot: ({ backendType }) => backendType === 'Java',
           backendTypeJavaAny: ({ backendTypeSpringBoot }) => backendTypeSpringBoot,
@@ -455,14 +455,14 @@ export default class BootstrapApplicationBase extends BaseApplicationGenerator {
       chalk.green(' _______________________________________________________________________________________________________________\n'),
     );
     this.log.log(
-      chalk.white(`  Documentation for creating an application is at ${chalk.yellow('https://www.jhipster.tech/creating-an-app/')}
+      chalk.white(`  Documentation for creating an application is at ${chalk.yellow('https://www.trinity-technology.com/')}
 
   Application files will be generated in folder: ${chalk.yellow(cwd)}`),
     );
     if (process.cwd() === this.getUserHome()) {
       this.log.log(chalk.red.bold('\n️⚠️  WARNING ⚠️  You are in your HOME folder!'));
-      this.log.log(chalk.red('This can cause problems, you should always create a new directory and run the jhipster command from here.'));
-      this.log.log(chalk.white(`See the troubleshooting section at ${chalk.yellow('https://www.jhipster.tech/installation/')}`));
+      this.log.log(chalk.red('This can cause problems, you should always create a new directory and run the trinity command from here.'));
+      this.log.log(chalk.white(`See the troubleshooting section at ${chalk.yellow('https://www.trinity-technology.com/')}`));
     }
     this.log.log(
       chalk.green(' _______________________________________________________________________________________________________________\n'),

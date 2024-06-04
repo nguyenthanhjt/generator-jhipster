@@ -64,7 +64,7 @@ _%>
       - JHIPSTER_CACHE_REDIS_CLUSTER=false
 <%_ } _%>
 <%_ if (authenticationTypeOauth2) { _%>
-      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/jhipster
+      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/trinity
   <%_ if (applicationTypeGateway || applicationTypeMonolith) { _%>
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=web_app
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=web_app

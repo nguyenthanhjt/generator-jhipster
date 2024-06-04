@@ -77,7 +77,7 @@ exports[`generator - server - support - needles generated project should match s
   "src/main/java/com/mycompany/myapp/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/myapp/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/myapp/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/myapp/JhipsterApp.java": {

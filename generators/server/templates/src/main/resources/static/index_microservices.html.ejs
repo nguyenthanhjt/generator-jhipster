@@ -2,7 +2,7 @@
 <html lang="<% if (enableTranslation) { %><%= nativeLanguage %><% } else { %>en<% } %>">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <title>JHipster microservice homepage</title>
+  <title>Trinity microservice homepage</title>
   <style>
     ::-moz-selection {
       background: #b3d4fc;
@@ -74,20 +74,20 @@
 <div class="container">
   <h1>Welcome, <%- hipsterName %>!</h1>
 
-  <p>This application is a microservice, which has been generated using <a href="<%- hipsterDocumentationLink %>" rel="noopener noreferrer">JHipster</a>.</p>
+  <p>This application is a microservice, which has been generated using <a href="<%- hipsterDocumentationLink %>" rel="noopener noreferrer">Trinity</a>.</p>
 
   <ul>
 <%_ if (microfrontend) { %>
-    <li>JHipster's microfrontends implementation doesn't provide a stand-alone UI. Packaged microfrontends should be accessed through a JHipster gateway.</li>
+    <li>Trinity's microfrontends implementation doesn't provide a stand-alone UI. Packaged microfrontends should be accessed through a Trinity gateway.</li>
     <li>Stand-alone development server can be started by `npm start`.</li>
 <%_ } else { %>
-    <li>It does not have a front-end. The front-end should be generated on a JHipster gateway.</li>
+    <li>It does not have a front-end. The front-end should be generated on a Trinity gateway.</li>
 <%_ } %>
     <li>It is serving REST APIs, under the '/api' URLs.</li>
     <%_ if (serviceDiscoveryEureka) { _%>
-    <li>To manage this microservice, you will probably want to use the <a href="https://www.jhipster.tech/jhipster-registry/">JHipster Registry</a>:
+    <li>To manage this microservice, you will probably want to use the <a href="https://www.trinity-technology.com/trinity-registry/">Trinity Registry</a>:
       <ul>
-        <li>To run the JHipster Registry locally, you can use Docker:<br><code><small>docker compose -f src/main/docker/jhipster-registry.yml up --wait</small></code></li>
+        <li>To run the Trinity Registry locally, you can use Docker:<br><code><small>docker compose -f src/main/docker/trinity-registry.yml up --wait</small></code></li>
         <li>Its default URL is <a href="http://localhost:8761/">http://localhost:8761/</a> and its default login/password is <code>admin/admin</code></li>
       </ul>
     </li>
@@ -103,19 +103,19 @@
   </ul>
 
   <h2>
-    If you have any question on JHipster:
+    If you have any question:
   </h2>
 
   <ul>
-    <li><a href="<%- hipsterDocumentationLink %>" target="_blank" rel="noopener noreferrer">JHipster homepage</a></li>
-    <li><a href="<%- hipsterStackoverflowLink %>" target="_blank" rel="noopener noreferrer">JHipster on Stack Overflow</a></li>
-    <li><a href="<%- hipsterBugTrackerLink %>" target="_blank" rel="noopener noreferrer">JHipster bug tracker</a></li>
-    <li><a href="<%- hipsterChatLink %>" target="_blank" rel="noopener noreferrer">JHipster public chat room</a></li>
-    <li><a href="<%- hipsterTwitterLink %>" target="_blank" rel="noopener noreferrer">follow @jhipster on Twitter</a></li>
+    <li><a href="<%- hipsterDocumentationLink %>" target="_blank" rel="noopener noreferrer">Trinty homepage</a></li>
+    <li><a href="<%- hipsterStackoverflowLink %>" target="_blank" rel="noopener noreferrer">Trinty on Stack Overflow</a></li>
+    <li><a href="<%- hipsterBugTrackerLink %>" target="_blank" rel="noopener noreferrer">Trinty bug tracker</a></li>
+    <li><a href="<%- hipsterChatLink %>" target="_blank" rel="noopener noreferrer">Trinty public chat room</a></li>
+    <li><a href="<%- hipsterTwitterLink %>" target="_blank" rel="noopener noreferrer">follow @trinty on Twitter</a></li>
   </ul>
 
   <p>
-    <span>If you like JHipster, don't forget to give us a star on</span> <a href="<%- hipsterProjectLink %>" target="_blank" rel="noopener noreferrer">GitHub</a>!
+    <span>If you like Trinity, don't forget to give us a star on</span> <a href="<%- hipsterProjectLink %>" target="_blank" rel="noopener noreferrer">GitHub</a>!
   </p>
 
 </div>

@@ -130,7 +130,7 @@ services:
       - SPRING_PROFILES_ACTIVE=prod,api-docs
       - MANAGEMENT_PROMETHEUS_METRICS_EXPORT_ENABLED=true
       - SPRING_NEO4J_URI=bolt://neo4j:7687
-      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/jhipster
+      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/trinity
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=web_app
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=web_app
       - SPRING_PULSAR_CLIENT_SERVICE_URL=pulsar://pulsar:6650
@@ -207,7 +207,7 @@ exports[`generator - docker gateway-oauth2-maven-enableTranslation(false)-tech.j
   "src/main/docker/pulsar.yml": {
     "stateCleared": "modified",
   },
-  "src/main/docker/realm-config/jhipster-realm.json": {
+  "src/main/docker/realm-config/trinity-realm.json": {
     "stateCleared": "modified",
   },
   "src/main/docker/realm-config/keycloak-health-check.sh": {
@@ -452,7 +452,7 @@ services:
       - SPRING_DATASOURCE_URL=jdbc:sqlserver://mssql:1433;database=jhipster;encrypt=false
       - SPRING_LIQUIBASE_URL=jdbc:sqlserver://mssql:1433;database=jhipster;encrypt=false
       - JHIPSTER_CACHE_MEMCACHED_SERVERS=memcached:11211
-      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/jhipster
+      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/trinity
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=internal
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=internal
     healthcheck:
@@ -525,7 +525,7 @@ exports[`generator - docker microservice-oauth2-reactive(false)-maven-enableTran
   "src/main/docker/prometheus/prometheus.yml": {
     "stateCleared": "modified",
   },
-  "src/main/docker/realm-config/jhipster-realm.json": {
+  "src/main/docker/realm-config/trinity-realm.json": {
     "stateCleared": "modified",
   },
   "src/main/docker/realm-config/keycloak-health-check.sh": {
@@ -560,7 +560,7 @@ services:
       - MANAGEMENT_PROMETHEUS_METRICS_EXPORT_ENABLED=true
       - SPRING_CLOUD_CONSUL_HOST=consul
       - SPRING_CLOUD_CONSUL_PORT=8500
-      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/jhipster
+      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/trinity
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=internal
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=internal
       - SPRING_CASSANDRA_CONTACTPOINTS=cassandra
@@ -688,7 +688,7 @@ exports[`generator - docker microservice-oauth2-reactive(true)-gradle-enableTran
   "src/main/docker/pulsar.yml": {
     "stateCleared": "modified",
   },
-  "src/main/docker/realm-config/jhipster-realm.json": {
+  "src/main/docker/realm-config/trinity-realm.json": {
     "stateCleared": "modified",
   },
   "src/main/docker/realm-config/keycloak-health-check.sh": {
@@ -954,7 +954,7 @@ services:
       - MANAGEMENT_PROMETHEUS_METRICS_EXPORT_ENABLED=true
       - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresql:5432/jhipster
       - SPRING_LIQUIBASE_URL=jdbc:postgresql://postgresql:5432/jhipster
-      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/jhipster
+      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/trinity
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=web_app
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=web_app
     ports:
@@ -1022,7 +1022,7 @@ exports[`generator - docker monolith-oauth2-reactive(false)-maven-enableTranslat
   "src/main/docker/prometheus/prometheus.yml": {
     "stateCleared": "modified",
   },
-  "src/main/docker/realm-config/jhipster-realm.json": {
+  "src/main/docker/realm-config/trinity-realm.json": {
     "stateCleared": "modified",
   },
   "src/main/docker/realm-config/keycloak-health-check.sh": {
@@ -1052,7 +1052,7 @@ services:
       - SPRING_CLOUD_CONSUL_HOST=consul
       - SPRING_CLOUD_CONSUL_PORT=8500
       - SPRING_NEO4J_URI=bolt://neo4j:7687
-      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/jhipster
+      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/trinity
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=web_app
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=web_app
       - SPRING_ELASTICSEARCH_URIS=http://elasticsearch:9200
@@ -1159,7 +1159,7 @@ exports[`generator - docker monolith-oauth2-reactive(true)-gradle-enableTranslat
   "src/main/docker/pulsar.yml": {
     "stateCleared": "modified",
   },
-  "src/main/docker/realm-config/jhipster-realm.json": {
+  "src/main/docker/realm-config/trinity-realm.json": {
     "stateCleared": "modified",
   },
   "src/main/docker/realm-config/keycloak-health-check.sh": {

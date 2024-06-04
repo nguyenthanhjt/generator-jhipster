@@ -125,7 +125,7 @@ export default class BootstrapGenerator extends BaseApplicationGenerator {
         if (this.jhipsterConfig.withGeneratedFlag) {
           this.queueTransformStream(
             {
-              name: 'adding @GeneratedByJHipster annotations',
+              name: 'adding @GeneratedByTrinity annotations',
               filter: file => isFileStateModified(file) && file.path.startsWith(this.destinationPath()) && file.path.endsWith('.java'),
               refresh: false,
             },
@@ -179,7 +179,7 @@ export default class BootstrapGenerator extends BaseApplicationGenerator {
         await this.writeFiles({
           blocks: [
             javaMainPackageTemplatesBlock({
-              templates: ['GeneratedByJHipster.java'],
+              templates: ['GeneratedByTrinity.java'],
             }),
           ],
           context: application,

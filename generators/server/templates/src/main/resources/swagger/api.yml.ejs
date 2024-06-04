@@ -45,7 +45,7 @@ components:
                   it SHOULD provide human-readable documentation for the problem type
                   (e.g., using HTML).
                 default: 'about:blank'
-                example: 'https://www.jhipster.tech/problem/problem-with-message'
+                example: 'https://www.trinity-technology.com/problem/problem-with-message'
               title:
                 type: string
                 description: |
@@ -100,19 +100,19 @@ security:
       description: OAuth2 authentication with KeyCloak
       flows:
         authorizationCode:
-          authorizationUrl: http://localhost:9080/realms/jhipster/protocol/openid-connect/auth
-          tokenUrl: http://localhost:9080/realms/jhipster/protocol/openid-connect/token
+          authorizationUrl: http://localhost:9080/realms/trinity/protocol/openid-connect/auth
+          tokenUrl: http://localhost:9080/realms/trinity/protocol/openid-connect/token
           scopes:
-            jhipster: Jhipster specific claims
+            trinity: Trinity specific claims
             email: Email claims
             profile: Profile claims
     openId:
       type: openIdConnect
       description: OpenID Connect authentication with KeyCloak
-      openIdConnectUrl: http://localhost:9080/realms/jhipster/.well-known/openid-configuration
+      openIdConnectUrl: http://localhost:9080/realms/trinity/.well-known/openid-configuration
 security:
-  - oauth: [jhipster, email, profile]
-  - openId: [jhipster, email, profile]
+  - oauth: [trinity, email, profile]
+  - openId: [trinity, email, profile]
 <% } %>
 <% if (authenticationTypeSession) { %>
   securitySchemes:

@@ -427,7 +427,7 @@ describe('generator - Docker Compose', () => {
     });
     it('should match files snapshot', function () {
       expect(runResult.getSnapshot()).toMatchSnapshot({
-        'realm-config/jhipster-realm.json': {
+        'realm-config/trinity-realm.json': {
           contents: expect.any(String),
           stateCleared: 'modified',
         },

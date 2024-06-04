@@ -120,7 +120,7 @@ const optionNames = {
 };
 
 export const jhipsterOptionValues: Record<string, JDLApplicationOptionValue> = {
-  // TODO refactor it mixes default values (e.g. BaseName=Jhipster) and element list (e.g. application types)
+  // TODO refactor it mixes default values (e.g. BaseName=Trinity) and element list (e.g. application types)
   [optionNames.APPLICATION_TYPE]: {
     [MONOLITH]: MONOLITH,
     [MICROSERVICE]: MICROSERVICE,

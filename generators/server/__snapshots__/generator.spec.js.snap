@@ -23,7 +23,7 @@ exports[`generator - server composing databaseType option no with jwt should mat
   "src/main/java/com/mycompany/myapp/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/myapp/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/myapp/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/myapp/JhipsterApp.java": {
@@ -259,7 +259,7 @@ exports[`generator - server composing databaseType option no with oauth2 should 
   "src/main/java/com/mycompany/myapp/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/myapp/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/myapp/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/myapp/JhipsterApp.java": {
@@ -495,7 +495,7 @@ exports[`generator - server composing databaseType option no with session should
   "src/main/java/com/mycompany/myapp/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/myapp/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/myapp/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/myapp/JhipsterApp.java": {
@@ -773,7 +773,7 @@ exports[`generator - server with entities should match files snapshot 1`] = `
   "src/main/java/com/mycompany/myapp/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/myapp/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/myapp/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/myapp/JhipsterApp.java": {

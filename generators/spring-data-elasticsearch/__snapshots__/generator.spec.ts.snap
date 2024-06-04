@@ -50,7 +50,7 @@ exports[`generator - elasticsearch gateway-jwt-gradle-enableTranslation(true)-co
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -556,7 +556,7 @@ exports[`generator - elasticsearch microservice-jwt-reactive(false)-maven-enable
   "src/main/java/tech/jhipster/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/tech/jhipster/GeneratedByJHipster.java": {
+  "src/main/java/tech/jhipster/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/tech/jhipster/JhipsterApp.java": {
@@ -948,7 +948,7 @@ exports[`generator - elasticsearch microservice-jwt-reactive(true)-gradle-enable
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -1367,7 +1367,7 @@ exports[`generator - elasticsearch microservice-oauth2-reactive(true)-gradle-ena
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -1726,7 +1726,7 @@ exports[`generator - elasticsearch monolith-jwt-reactive(false)-maven-enableTran
   "src/main/java/tech/jhipster/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/tech/jhipster/GeneratedByJHipster.java": {
+  "src/main/java/tech/jhipster/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/tech/jhipster/JhipsterApp.java": {
@@ -2256,7 +2256,7 @@ exports[`generator - elasticsearch monolith-jwt-reactive(true)-gradle-enableTran
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -2657,7 +2657,7 @@ exports[`generator - elasticsearch monolith-oauth2-reactive(false)-maven-enableT
   "src/main/java/tech/jhipster/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/tech/jhipster/GeneratedByJHipster.java": {
+  "src/main/java/tech/jhipster/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/tech/jhipster/JhipsterApp.java": {
@@ -3094,7 +3094,7 @@ exports[`generator - elasticsearch monolith-oauth2-reactive(true)-gradle-enableT
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {
@@ -3534,7 +3534,7 @@ exports[`generator - elasticsearch monolith-session-reactive(false)-maven-enable
   "src/main/java/tech/jhipster/ApplicationWebXml.java": {
     "stateCleared": "modified",
   },
-  "src/main/java/tech/jhipster/GeneratedByJHipster.java": {
+  "src/main/java/tech/jhipster/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/tech/jhipster/JhipsterApp.java": {
@@ -4070,7 +4070,7 @@ exports[`generator - elasticsearch monolith-session-reactive(true)-gradle-enable
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/JhipsterApp.java": {

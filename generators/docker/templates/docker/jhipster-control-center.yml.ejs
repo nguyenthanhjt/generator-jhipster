@@ -17,7 +17,6 @@
  limitations under the License.
 -%>
 ## How to use JHCC docker compose
-# To allow JHCC to reach JHipster application from a docker container note that we set the host as host.docker.internal
 # To reach the application from a browser, you need to add '127.0.0.1 host.docker.internal' to your hosts file.
 ### Discovery mode
 # JHCC support 3 kinds of discovery mode: Consul, Eureka and static
@@ -45,13 +44,13 @@
 # Do not forget to remove the prefix "127.0.0.1" in front of their port in order to expose them.
 # This is required because JHCC need to communicate with Consul or Eureka.
 # - In Consul mode, the ports are in the consul.yml file.
-# - In Eureka mode, the ports are in the jhipster-registry.yml file.
+# - In Eureka mode, the ports are in the trinity-registry.yml file.
 
 
 <%_ let discoveryProfile = serviceDiscoveryAny ? 'none' : 'static'; _%>
 name: <%= baseName.toLowerCase() %>
 services:
-  jhipster-control-center:
+  trinity-control-center:
     image: '<%- dockerContainers.jhipsterControlCenter %>'
     command:
       - /bin/sh
@@ -67,9 +66,9 @@ services:
       - JHIPSTER_SECURITY_AUTHENTICATION_JWT_BASE64_SECRET=<%= jwtSecretKey %>
 <%_ } else if (authenticationTypeOauth2) { _%>
       # For keycloak to work, you need to add '127.0.0.1 keycloak' to your hosts file
-      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/jhipster
-      - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=jhipster-control-center
-      - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=jhipster-control-center
+      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/realms/trinity
+      - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=trinity-control-center
+      - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=trinity-control-center
 <%_ } _%>
 <%_ if (serviceDiscoveryEureka) { _%>
       - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://admin:admin@host.docker.internal:8761/eureka/
@@ -79,7 +78,7 @@ services:
 <%_ } else { _%>
       - SPRING_CLOUD_DISCOVERY_CLIENT_SIMPLE_INSTANCES_<%= baseName.toUpperCase() %>_0_URI=http://host.docker.internal:<%= serverPort %>
 <%_ } _%>
-      - LOGGING_FILE_NAME=/tmp/jhipster-control-center.log
+      - LOGGING_FILE_NAME=/tmp/trinity-control-center.log
     # If you want to expose these ports outside your dev PC,
     # remove the "127.0.0.1:" prefix
     ports:

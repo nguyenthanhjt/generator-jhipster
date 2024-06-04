@@ -167,7 +167,7 @@ export const dockerFiles = {
       condition: generator => generator.dockerServices.includes('keycloak'),
       path: TEMPLATES_DOCKER_DIR,
       renameTo,
-      templates: ['keycloak.yml', 'realm-config/jhipster-realm.json'],
+      templates: ['keycloak.yml', 'realm-config/trinity-realm.json'],
     },
     {
       condition: generator => generator.dockerServices.includes('keycloak'),

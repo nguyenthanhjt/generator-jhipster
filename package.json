@@ -18,11 +18,11 @@
     "Docker",
     "JDL"
   ],
-  "homepage": "https://www.jhipster.tech/",
-  "bugs": "https://github.com/jhipster/generator-jhipster/issues",
+  "homepage": "https://www.trinity-technology.com/",
+  "bugs": "https://www.trinity-technology.com/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jhipster/generator-jhipster.git"
+    "url": "https://github.com/trinitytechnology"
   },
   "funding": {
     "type": "opencollective",
@@ -30,9 +30,9 @@
   },
   "license": "Apache-2.0",
   "author": {
-    "name": "Julien Dubois",
+    "name": "Trinity Technology",
     "email": "",
-    "url": "https://github.com/jdubois"
+    "url": "https://github.com/trinitytechnology"
   },
   "type": "module",
   "exports": {

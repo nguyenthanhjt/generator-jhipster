@@ -20,8 +20,8 @@ import { readFileSync } from 'fs';
 import { join } from 'path';
 import { fileURLToPath } from 'url';
 
-export const BLUEPRINT_API_VERSION = 'jhipster-8';
-// jhipster-bom version
+export const BLUEPRINT_API_VERSION = 'trinity-8';
+// trinity-bom version
 export const JHIPSTER_DEPENDENCIES_VERSION = '8.4.1-SNAPSHOT';
 // Version of Java
 export const JAVA_VERSION = '17';
@@ -75,7 +75,7 @@ export const LOGIN_REGEX = '^(?>[a-zA-Z0-9!$&*+=?^_`{|}~.-]+@[a-zA-Z0-9-]+(?:\\\
 export const LOGIN_REGEX_JS = '^[a-zA-Z0-9!$&*+=?^_`{|}~.-]+@[a-zA-Z0-9-]+(?:\\\\.[a-zA-Z0-9-]+)*$|^[_.@A-Za-z0-9-]+$';
 
 // documentation constants
-export const JHIPSTER_DOCUMENTATION_URL = 'https://www.jhipster.tech';
+export const JHIPSTER_DOCUMENTATION_URL = 'https://www.trinity-technology.com';
 export const JHIPSTER_DOCUMENTATION_ARCHIVE_PATH = '/documentation-archive/';
 
 export const MAIN_DIR = 'src/main/';

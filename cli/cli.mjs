@@ -35,7 +35,7 @@ const minimumNodeVersion = packageJson.engines.node;
 
 if (!process.argv.includes('--skip-checks') && !semver.satisfies(currentNodeVersion, minimumNodeVersion)) {
   logger.fatal(
-    `You are running Node version ${currentNodeVersion}.\nJHipster requires Node version ${minimumNodeVersion}.\nPlease update your version of Node.`,
+    `You are running Node version ${currentNodeVersion}.\nTrinity requires Node version ${minimumNodeVersion}.\nPlease update your version of Node.`,
   );
 }
 
@@ -45,8 +45,8 @@ if (
   relative(appFolderOrWorkspaceRoot, __dirname).startsWith('..') &&
   existsSync(join(appFolderOrWorkspaceRoot, 'node_modules/.bin/jhipster'))
 ) {
-  logger.warn(`Since JHipster v8, the jhipster command will not use the locally installed generator-jhipster.
-    If you want to execute the locally installed generator-jhipster, run: ${chalk.yellow('npx jhipster')}`);
+  logger.warn(`Since Trinity v8, the trinity command will not use the locally installed trinity-starter.
+    If you want to execute the locally installed trinity-starter, run: ${chalk.yellow('npx jhipster')}`);
 }
 
 export default runJHipster().catch(done);

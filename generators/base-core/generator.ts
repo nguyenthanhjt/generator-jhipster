@@ -1213,12 +1213,12 @@ templates: ${JSON.stringify(existingTemplates, null, 2)}`;
         this.log.warn(
           `${
             chalk.yellow(' ______________________________________________________________________________\n\n') +
-            chalk.yellow('  JHipster update available: ') +
+            chalk.yellow('  Trinity Platform update available: ') +
             chalk.green.bold(latestJhipster) +
             chalk.gray(` (current: ${packageJson.version})`)
           }\n`,
         );
-        this.log.log(chalk.yellow(`  Run ${chalk.magenta(`npm install -g ${GENERATOR_JHIPSTER}`)} to update.\n`));
+        /*this.log.log(chalk.yellow(`  Run ${chalk.magenta(`npm install -g ${GENERATOR_JHIPSTER}`)} to update.\n`));*/
         this.log.log(chalk.yellow(' ______________________________________________________________________________\n'));
       }
     } catch {

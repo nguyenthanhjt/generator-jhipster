@@ -27,10 +27,10 @@ const generatedAnnotationTransform = packageName => {
       !file.path.endsWith('package-info.java') &&
       extname(file.path) === '.java' &&
       !isFileStateDeleted(file) &&
-      !file.path.endsWith('GeneratedByJHipster.java')
+      !file.path.endsWith('GeneratedByTrinity.java')
     ) {
       file.contents = Buffer.from(
-        addJavaAnnotation(file.contents.toString('utf8'), { package: packageName, annotation: 'GeneratedByJHipster' }),
+        addJavaAnnotation(file.contents.toString('utf8'), { package: packageName, annotation: 'GeneratedByTrinity' }),
       );
     }
   });

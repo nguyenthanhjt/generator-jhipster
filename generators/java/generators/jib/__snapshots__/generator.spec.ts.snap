@@ -26,7 +26,7 @@ exports[`generator - java:jib with defaults options should match files snapshot 
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/myapp/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/myapp/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/myapp/package-info.java": {
@@ -142,7 +142,7 @@ exports[`generator - java:jib with gradle buildTool should match files snapshot 
   "src/main/docker/jib/entrypoint.sh": {
     "stateCleared": "modified",
   },
-  "src/main/java/com/mycompany/myapp/GeneratedByJHipster.java": {
+  "src/main/java/com/mycompany/myapp/GeneratedByTrinity.java": {
     "stateCleared": "modified",
   },
   "src/main/java/com/mycompany/myapp/package-info.java": {

@@ -21,7 +21,7 @@ import type { JHipsterCommandDefinition } from '../../../base/api.js';
 const command: JHipsterCommandDefinition = {
   options: {
     withGeneratedFlag: {
-      description: 'Add a GeneratedByJHipster annotation to all generated java classes and interfaces',
+      description: 'Add a GeneratedByTrinity annotation to all generated java classes and interfaces',
       type: Boolean,
       scope: 'storage',
     },
