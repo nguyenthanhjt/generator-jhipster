@@ -29,7 +29,7 @@ import { useTrackerService } from './admin/tracker/tracker.service';
 
 const pinia = createPinia()
 
-// jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
+// trinity-needle-add-entity-service-to-main-import - Trinity will import entities services here
 
 initBootstrapVue(Vue);
 
@@ -177,7 +177,7 @@ const app = createApp({
     provide('translationService', translationService);
 <%_ } _%>
     provide('accountService', accountService);
-    // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
+    // trinity-needle-add-entity-service-to-main - Trinity will import entities services here
 <%_ if (communicationSpringWebsocket) { _%>
 
     provide('trackerService', useTrackerService({ authenticated }));

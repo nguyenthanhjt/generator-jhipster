@@ -95,7 +95,7 @@ export default class ReactGenerator extends BaseApplicationGenerator {
             webpackPath,
             { ignoreNonExisting },
             createNeedleCallback({
-              needle: 'jhipster-needle-add-webpack-config',
+              needle: 'trinity-needle-add-webpack-config',
               contentToAdd: `,${args.config}`,
             }),
           );

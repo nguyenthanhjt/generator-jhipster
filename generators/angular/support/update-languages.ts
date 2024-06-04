@@ -25,11 +25,11 @@ function updateLanguagesInPipeTask(this: BaseGenerator, { application, control =
   const { ignoreNeedlesError: ignoreNonExisting } = control;
   const newContent = `{
         ${generateLanguagesWebappOptions(languagesDefinition).join(',\n        ')}
-      // jhipster-needle-i18n-language-key-pipe - JHipster will add/remove languages in this object
+      // trinity-needle-i18n-language-key-pipe - Trinity will add/remove languages in this object
   };
 `;
   this.editFile(`${clientSrcDir}app/shared/language/find-language-from-key.pipe.ts`, { ignoreNonExisting }, content =>
-    content.replace(/{\s*('[a-z-]*':)?([^=]*jhipster-needle-i18n-language-key-pipe[^;]*)\};/g, newContent),
+    content.replace(/{\s*('[a-z-]*':)?([^=]*trinity-needle-i18n-language-key-pipe[^;]*)\};/g, newContent),
   );
 }
 
@@ -40,10 +40,10 @@ function updateLanguagesInConstantsTask(this: BaseGenerator, { application, cont
   languages?.forEach(lang => {
     newContent += `    '${lang}',\n`;
   });
-  newContent += '    // jhipster-needle-i18n-language-constant - JHipster will add/remove languages in this array\n];';
+  newContent += '    // trinity-needle-i18n-language-constant - Trinity will add/remove languages in this array\n];';
 
   this.editFile(`${clientSrcDir}app/config/language.constants.ts`, { ignoreNonExisting }, content =>
-    content.replace(/export.*LANGUAGES.*\[([^\]]*jhipster-needle-i18n-language-constant[^\]]*)\];/g, newContent),
+    content.replace(/export.*LANGUAGES.*\[([^\]]*trinity-needle-i18n-language-constant[^\]]*)\];/g, newContent),
   );
 }
 
@@ -56,11 +56,11 @@ function updateLanguagesInWebpackTask(this: BaseGenerator, { application, contro
     newContent += `                    { pattern: "./${srcRelativePath}i18n/${language}/*.json", fileName: "./i18n/${language}.json" },\n`;
   });
   newContent +=
-    '                    // jhipster-needle-i18n-language-webpack - JHipster will add/remove languages in this array\n' +
+    '                    // trinity-needle-i18n-language-webpack - Trinity will add/remove languages in this array\n' +
     '                ]';
 
   this.editFile(`${clientRootDir}webpack/webpack.custom.js`, { ignoreNonExisting }, content =>
-    content.replace(/groupBy:.*\[([^\]]*jhipster-needle-i18n-language-webpack[^\]]*)\]/g, newContent),
+    content.replace(/groupBy:.*\[([^\]]*trinity-needle-i18n-language-webpack[^\]]*)\]/g, newContent),
   );
 }
 

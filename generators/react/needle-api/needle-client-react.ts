@@ -25,7 +25,7 @@ import { stripMargin } from '../../base/support/index.js';
 export default class extends needleClientBase {
   addAppSCSSStyle(style: string, comment: string) {
     const filePath = `${this.clientSrcDir}app/app.scss`;
-    this.addStyle(style, comment, filePath, 'jhipster-needle-scss-add-main');
+    this.addStyle(style, comment, filePath, 'trinity-needle-scss-add-main');
   }
 
   addEntityToMenu(
@@ -41,7 +41,7 @@ export default class extends needleClientBase {
       stripMargin(`|<MenuItem icon="asterisk" to="/${routerName}">
                         |        ${enableTranslation ? `<Translate contentKey="global.menu.entities.${entityTranslationKeyMenu}" />` : `${entityTranslationValue}`}
                         |      </MenuItem>`);
-    const rewriteFileModel = this.generateFileModel(entityMenuPath, 'jhipster-needle-add-entity-to-menu', entityEntry);
+    const rewriteFileModel = this.generateFileModel(entityMenuPath, 'trinity-needle-add-entity-to-menu', entityEntry);
 
     this.addBlockContentToFile(rewriteFileModel, errorMessage);
   }
@@ -64,28 +64,28 @@ export default class extends needleClientBase {
 
     const indexAddRouteImportRewriteFileModel = this.generateFileModel(
       indexModulePath,
-      'jhipster-needle-add-route-import',
+      'trinity-needle-add-route-import',
       stripMargin(`|import ${entityName} from './${entityFolderName}';`),
     );
     this.addBlockContentToFile(indexAddRouteImportRewriteFileModel, errorMessage(indexModulePath));
 
     const indexAddRoutePathRewriteFileModel = this.generateFileModel(
       indexModulePath,
-      'jhipster-needle-add-route-path',
+      'trinity-needle-add-route-path',
       stripMargin(`|<Route path="${applicationTypeMicroservice ? '/' : ''}${entityFileName}/*" element={<${entityName} />} />`),
     );
     this.addBlockContentToFile(indexAddRoutePathRewriteFileModel, errorMessage(indexModulePath));
 
     const reducerAddImportRewriteFileModel = this.generateFileModel(
       indexReducerPath,
-      'jhipster-needle-add-reducer-import', // prettier-ignore
+      'trinity-needle-add-reducer-import', // prettier-ignore
       stripMargin(`import ${entityInstance} from 'app/entities/${entityFolderName}/${entityFileName}.reducer';`),
     );
     this.addBlockContentToFile(reducerAddImportRewriteFileModel, errorMessage(indexReducerPath));
 
     const reducerAddCombineRewriteFileModel = this.generateFileModel(
       indexReducerPath,
-      'jhipster-needle-add-reducer-combine',
+      'trinity-needle-add-reducer-combine',
       stripMargin(`|  ${entityInstance},`),
     );
     this.addBlockContentToFile(reducerAddCombineRewriteFileModel, errorMessage(indexReducerPath));

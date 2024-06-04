@@ -153,7 +153,7 @@ return merge(
         { from: './<%= this.relativeDir(clientRootDir, clientSrcDir) %>content/', to: 'content/' },
         { from: './<%= this.relativeDir(clientRootDir, clientSrcDir) %>favicon.ico', to: 'favicon.ico' },
         { from: './<%= this.relativeDir(clientRootDir, clientSrcDir) %>manifest.webapp', to: 'manifest.webapp' },
-        // jhipster-needle-add-assets-to-webpack - JHipster will add/remove third-party resources in this array
+        // trinity-needle-add-assets-to-webpack - Trinity will add/remove third-party resources in this array
         { from: './<%= this.relativeDir(clientRootDir, clientSrcDir) %>robots.txt', to: 'robots.txt' }
       ],
     }),
@@ -167,13 +167,13 @@ return merge(
     new MergeJsonWebpackPlugin({
       output: {
         groupBy: [
-          // jhipster-needle-i18n-language-webpack - JHipster will add/remove languages in this array
+          // trinity-needle-i18n-language-webpack - Trinity will add/remove languages in this array
         ]
       }
     }),
 <%_ } _%>
   ]
 }
-// jhipster-needle-add-webpack-config - JHipster will add custom config
+// trinity-needle-add-webpack-config - Trinity will add custom config
 );
 };

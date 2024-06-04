@@ -40,10 +40,10 @@ export function updateLanguagesInDayjsConfigurationTask(
   const uniqueDayjsLocales = [...new Map(languagesDefinition.map(v => [v.dayjsLocale, v])).values()];
   const newContent = uniqueDayjsLocales.reduce(
     (content, language) => `${content}import 'dayjs/${commonjs ? '' : 'esm/'}locale/${language.dayjsLocale}'\n`,
-    '// jhipster-needle-i18n-language-dayjs-imports - JHipster will import languages from dayjs here\n',
+    '// trinity-needle-i18n-language-dayjs-imports - Trinity will import languages from dayjs here\n',
   );
 
   this.editFile(configurationFile, { ignoreNonExisting }, content =>
-    content.replace(/\/\/ jhipster-needle-i18n-language-dayjs-imports[\s\S]+?(?=\/\/ DAYJS CONFIGURATION)/g, `${newContent}\n`),
+    content.replace(/\/\/ trinity-needle-i18n-language-dayjs-imports[\s\S]+?(?=\/\/ DAYJS CONFIGURATION)/g, `${newContent}\n`),
   );
 }

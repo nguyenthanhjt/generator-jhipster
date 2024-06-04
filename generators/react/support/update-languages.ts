@@ -25,11 +25,11 @@ function updateLanguagesInPipeTask(this: BaseGenerator, { application, control =
   const { ignoreNeedlesError: ignoreNonExisting } = control;
   const newContent = `{
         ${generateLanguagesWebappOptions(languagesDefinition).join(',\n        ')}
-        // jhipster-needle-i18n-language-key-pipe - JHipster will add/remove languages in this object
+        // trinity-needle-i18n-language-key-pipe - Trinity will add/remove languages in this object
     };
 `;
   this.editFile(`${clientSrcDir}/app/config/translation.ts`, { ignoreNonExisting }, content =>
-    content.replace(/{\s*('[a-z-]*':)?([^=]*jhipster-needle-i18n-language-key-pipe[^;]*)\};/g, newContent),
+    content.replace(/{\s*('[a-z-]*':)?([^=]*trinity-needle-i18n-language-key-pipe[^;]*)\};/g, newContent),
   );
 }
 
@@ -42,11 +42,11 @@ function updateLanguagesInWebpackReactTask(this: BaseGenerator, { application, c
       newContent += `                    { pattern: "./${this.relativeDir(clientRootDir, clientSrcDir)}i18n/${language}/*.json", fileName: "./i18n/${language}.json" },\n`;
           });
   newContent +=
-    '                    // jhipster-needle-i18n-language-webpack - JHipster will add/remove languages in this array\n' +
+    '                    // trinity-needle-i18n-language-webpack - Trinity will add/remove languages in this array\n' +
     '                ]';
 
   this.editFile(`${application.clientRootDir}webpack/webpack.common.js`, { ignoreNonExisting }, content =>
-    content.replace(/groupBy:.*\[([^\]]*jhipster-needle-i18n-language-webpack[^\]]*)\]/g, newContent),
+    content.replace(/groupBy:.*\[([^\]]*trinity-needle-i18n-language-webpack[^\]]*)\]/g, newContent),
   );
 }
 

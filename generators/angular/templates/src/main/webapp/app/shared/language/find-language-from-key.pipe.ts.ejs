@@ -24,7 +24,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export default class FindLanguageFromKeyPipe implements PipeTransform {
   private languages: { [key: string]: { name: string; rtl?: boolean } } = {
-    // jhipster-needle-i18n-language-key-pipe - JHipster will add/remove languages in this object
+    // trinity-needle-i18n-language-key-pipe - Trinity will add/remove languages in this object
   };
 
   transform(lang: string): string {

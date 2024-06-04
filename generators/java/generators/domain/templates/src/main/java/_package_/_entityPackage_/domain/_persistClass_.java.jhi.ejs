@@ -178,7 +178,7 @@ for (relationship of relationships) {
 
 <%_ }; _%>
 <&- fragments.classAdditionalRelationshipsSection() -&>
-    // jhipster-needle-entity-add-field - JHipster will add fields here
+    // trinity-needle-entity-add-field - Trinity will add fields here
 <%_ for (const field of fields.filter(field => !field.transient && (embedded || !field.id || !primaryKey.composite))) { _%>
 <&- fragments.field<%- field.fieldNameCapitalized %>CustomMethodsSection() -&>
 <&_ if (!fragments.field<%- field.fieldNameCapitalized %>CustomMethodsSection()) { -&>
@@ -327,7 +327,7 @@ _%>
 
 <%_ } _%>
 <&- fragments.classAdditionalRelationshipsMethodsSection() -&>
-    // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here
+    // trinity-needle-entity-add-getters-setters - Trinity will add getters and setters here
 
     @Override
     public boolean equals(Object o) {

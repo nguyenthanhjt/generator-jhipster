@@ -86,7 +86,7 @@ export default class VueGenerator extends BaseApplicationGenerator {
             webpackPath,
             { ignoreNonExisting },
             createNeedleCallback({
-              needle: 'jhipster-needle-add-webpack-config',
+              needle: 'trinity-needle-add-webpack-config',
               contentToAdd: `,${args.config}`,
             }),
           );

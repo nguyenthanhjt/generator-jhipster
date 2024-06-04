@@ -104,7 +104,7 @@ another bar value`;
         it('should insert content and add ident', () => {
           const content = insertContentBeforeNeedle({
             content: `
-        ${needlePrefix} jhipster-needle-${needle}
+        ${needlePrefix} trinity-needle-${needle}
 `,
             contentToAdd,
             needle,
@@ -114,7 +114,7 @@ another bar value`;
   "
           a bar value
           another bar value
-          ${needlePrefix} jhipster-needle-a-needle
+          ${needlePrefix} trinity-needle-a-needle
   "
   `);
         });
@@ -122,7 +122,7 @@ another bar value`;
         it('should insert an array of content and add ident', () => {
           const content = insertContentBeforeNeedle({
             content: `
-        ${needlePrefix} jhipster-needle-${needle}
+        ${needlePrefix} trinity-needle-${needle}
 `,
             contentToAdd: [contentToAdd, `${contentToAdd}2`],
             needle,
@@ -134,14 +134,14 @@ another bar value`;
           another bar value
           a bar value
           another bar value2
-          ${needlePrefix} jhipster-needle-a-needle
+          ${needlePrefix} trinity-needle-a-needle
   "
   `);
         });
 
         it('should insert content with needles at start and end of contents', () => {
           const content = insertContentBeforeNeedle({
-            content: `${needlePrefix} jhipster-needle-${needle}`,
+            content: `${needlePrefix} trinity-needle-${needle}`,
             contentToAdd,
             needle,
           });
@@ -149,13 +149,13 @@ another bar value`;
           expect(content).toMatchInlineSnapshot(`
 "a bar value
 another bar value
-${needlePrefix} jhipster-needle-a-needle"
+${needlePrefix} trinity-needle-a-needle"
 `);
         });
 
         it('should not insert content with needles with extra letter', () => {
           const content = insertContentBeforeNeedle({
-            content: `${needlePrefix} jhipster-needle-${needle}a`,
+            content: `${needlePrefix} trinity-needle-${needle}a`,
             contentToAdd,
             needle,
           });
@@ -165,7 +165,7 @@ ${needlePrefix} jhipster-needle-a-needle"
 
         it('should not insert content with needles with extra dash', () => {
           const content = insertContentBeforeNeedle({
-            content: `${needlePrefix} jhipster-needle-${needle}-`,
+            content: `${needlePrefix} trinity-needle-${needle}-`,
             contentToAdd,
             needle,
           });
@@ -175,7 +175,7 @@ ${needlePrefix} jhipster-needle-a-needle"
 
         it('should not insert content without a leading space', () => {
           const content = insertContentBeforeNeedle({
-            content: `${needlePrefix}jhipster-needle-${needle}-`,
+            content: `${needlePrefix}trinity-needle-${needle}-`,
             contentToAdd,
             needle,
           });
@@ -187,8 +187,8 @@ ${needlePrefix} jhipster-needle-a-needle"
           expect(() =>
             insertContentBeforeNeedle({
               content: `
-        ${needlePrefix} jhipster-needle-${needle}
-        ${needlePrefix} jhipster-needle-${needle}
+        ${needlePrefix} trinity-needle-${needle}
+        ${needlePrefix} trinity-needle-${needle}
 `,
               contentToAdd,
               needle,
@@ -223,7 +223,7 @@ ${needlePrefix} jhipster-needle-a-needle"
 
     it('returned function should throw on missing needle', () => {
       expect(() => createNeedleCallback({ contentToAdd, needle }).call({ log() {} }, 'no needle')).toThrow(
-        /Missing required jhipster-needle/,
+        /Missing required trinity-needle/,
       );
     });
 
@@ -235,10 +235,10 @@ ${needlePrefix} jhipster-needle-a-needle"
     });
 
     it('returned function should add contentToAdd', () => {
-      expect(createNeedleCallback({ contentToAdd, needle }).call({ log() {} }, `\\\\ jhipster-needle-${needle}`, 'file'))
+      expect(createNeedleCallback({ contentToAdd, needle }).call({ log() {} }, `\\\\ trinity-needle-${needle}`, 'file'))
         .toMatchInlineSnapshot(`
 "content to add
-\\\\ jhipster-needle-a-needle"
+\\\\ trinity-needle-a-needle"
 `);
     });
 
@@ -246,12 +246,12 @@ ${needlePrefix} jhipster-needle-a-needle"
       expect(
         createNeedleCallback({ contentToAdd: [contentToAdd, `${contentToAdd}2`], needle }).call(
           { log() {} },
-          `\\\\ jhipster-needle-${needle}`,
+          `\\\\ trinity-needle-${needle}`,
         ),
       ).toMatchInlineSnapshot(`
 "content to add
 content to add2
-\\\\ jhipster-needle-a-needle"
+\\\\ trinity-needle-a-needle"
 `);
     });
   });

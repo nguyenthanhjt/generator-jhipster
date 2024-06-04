@@ -103,7 +103,7 @@ export const insertContentBeforeNeedle = ({ content, contentToAdd, needle, autoI
   assert(content, 'content is required');
   assert(contentToAdd, 'contentToAdd is required');
 
-  needle = needle.includes('jhipster-needle-') ? needle : `jhipster-needle-${needle}`;
+  needle = needle.includes('trinity-needle-') ? needle : `trinity-needle-${needle}`;
 
   let regexp = new RegExp(`(?://|<!--|/*|#) ${needle}(?:$|\n| )`, 'g');
   let firstMatch = regexp.exec(content);

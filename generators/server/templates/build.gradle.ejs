@@ -25,7 +25,7 @@ plugins {
 <%_ if (enableSwaggerCodegen) { _%>
     id "org.openapi.generator"
 <%_ } _%>
-    // jhipster-needle-gradle-plugins - JHipster will add additional gradle plugins here
+    // trinity-needle-gradle-plugins - Trinity will add additional gradle plugins here
 }
 
 group = "<%= packageName %>"
@@ -65,7 +65,7 @@ repositories {
     <%_ if (serviceDiscoveryEureka) { _%>
     maven { url 'https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates' }
     <%_ } _%>
-    // jhipster-needle-gradle-repositories - JHipster will add additional repositories
+    // trinity-needle-gradle-repositories - Trinity will add additional repositories
 }
 
 apply plugin: 'io.spring.dependency-management'
@@ -73,7 +73,7 @@ apply plugin: 'io.spring.dependency-management'
 <%_ if (enableSwaggerCodegen) { _%>
 apply from: "gradle/swagger.gradle"
 <%_ } _%>
-// jhipster-needle-gradle-apply-from - JHipster will add additional gradle scripts to be applied here
+// trinity-needle-gradle-apply-from - Trinity will add additional gradle scripts to be applied here
 
 if (project.hasProperty("prod")) {
     apply from: "gradle/profile_prod.gradle"
@@ -266,7 +266,7 @@ if (addSpringMilestoneRepository) { _%>
         }
     }
 <%_ } _%>
-    // jhipster-needle-gradle-dependency - JHipster will add additional dependencies here
+    // trinity-needle-gradle-dependency - Trinity will add additional dependencies here
 }
 
 task cleanResources(type: Delete) {

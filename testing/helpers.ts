@@ -254,10 +254,10 @@ class JHipsterRunContext extends RunContext<GeneratorTestType> {
     return this.withFiles({
       'build.gradle': `
 dependencies {
-// jhipster-needle-gradle-dependency
+// trinity-needle-gradle-dependency
 }
 plugins {
-// jhipster-needle-gradle-plugins
+// trinity-needle-gradle-plugins
 }
 `,
     }).withJHipsterConfig({ buildTool: 'gradle' });

@@ -29,18 +29,18 @@ const { ANGULAR } = clientFrameworkTypes;
 export default class extends needleClientBase {
   addGlobalSCSSStyle(style, comment) {
     const filePath = `${this.clientSrcDir}content/scss/global.scss`;
-    this.addStyle(style, comment, filePath, 'jhipster-needle-scss-add-main');
+    this.addStyle(style, comment, filePath, 'trinity-needle-scss-add-main');
   }
 
   addVendorSCSSStyle(style, comment) {
     const filePath = `${this.clientSrcDir}content/scss/vendor.scss`;
-    super.addStyle(style, comment, filePath, 'jhipster-needle-scss-add-vendor');
+    super.addStyle(style, comment, filePath, 'trinity-needle-scss-add-vendor');
   }
 
   addModule(appName, angularName, folderName, fileName, enableTranslation) {
     const modulePath = `${this.clientSrcDir}app/app.config.ts`;
-    const importNeedle = 'jhipster-needle-angular-add-module-import';
-    const moduleNeedle = 'jhipster-needle-angular-add-module';
+    const importNeedle = 'trinity-needle-angular-add-module-import';
+    const moduleNeedle = 'trinity-needle-angular-add-module';
 
     this._genericAddModule(appName, angularName, folderName, fileName, enableTranslation, ANGULAR, modulePath, importNeedle, moduleNeedle);
   }
@@ -105,12 +105,12 @@ export default class extends needleClientBase {
       iconsPath,
       { ignoreNonExisting },
       createNeedleCallback({
-        needle: 'jhipster-needle-add-icon-import',
+        needle: 'trinity-needle-add-icon-import',
         contentToCheck: new RegExp(`\\b${iconImport}\\b`),
         contentToAdd: (content, { indentPrefix }) =>
           content.replace(
-            /(\r?\n)(\s*)\/\/ jhipster-needle-add-icon-import/g,
-            `\n${indentPrefix}${iconImport},\n${indentPrefix}// jhipster-needle-add-icon-import`,
+            /(\r?\n)(\s*)\/\/ trinity-needle-add-icon-import/g,
+            `\n${indentPrefix}${iconImport},\n${indentPrefix}// trinity-needle-add-icon-import`,
           ),
       }),
     );
@@ -127,7 +127,7 @@ export default class extends needleClientBase {
                                     <span${enableTranslation ? ` ${jhiPrefix}Translate="global.menu.${translationKeyMenu}"` : ''}>${startCase(routerName)}</span>
                                 </a>
                             </li>`;
-    const rewriteFileModel = this.generateFileModel(entityMenuPath, 'jhipster-needle-add-element-to-menu', entityEntry);
+    const rewriteFileModel = this.generateFileModel(entityMenuPath, 'trinity-needle-add-element-to-menu', entityEntry);
     rewriteFileModel.regexp = routerLink;
 
     this.addBlockContentToFile(rewriteFileModel, errorMessage);
@@ -145,7 +145,7 @@ export default class extends needleClientBase {
                             <span${enableTranslation ? ` ${jhiPrefix}Translate="global.menu.admin.${translationKeyMenu}"` : ''}>${startCase(routerName)}</span>
                         </a>
                     </li>`;
-    const rewriteFileModel = this.generateFileModel(navbarAdminPath, 'jhipster-needle-add-element-to-admin-menu', entityEntry);
+    const rewriteFileModel = this.generateFileModel(navbarAdminPath, 'trinity-needle-add-element-to-admin-menu', entityEntry);
     rewriteFileModel.regexp = routerLink;
 
     this.addBlockContentToFile(rewriteFileModel, errorMessage);
@@ -176,6 +176,6 @@ export default class extends needleClientBase {
 
   addAdminRoute(route, modulePath, moduleName, pageTitle) {
     const adminModulePath = `${this.clientSrcDir}app/admin/admin.routes.ts`;
-    this._addRoute(route, modulePath, moduleName, 'jhipster-needle-add-admin-route', adminModulePath, pageTitle);
+    this._addRoute(route, modulePath, moduleName, 'trinity-needle-add-admin-route', adminModulePath, pageTitle);
   }
 }

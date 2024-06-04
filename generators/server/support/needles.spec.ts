@@ -87,7 +87,7 @@ describe('generator - server - support - needles', () => {
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * Properties specific to JHipster.
+ * Properties specific to Trinity Platform.
  * <p>
  * Properties are configured in the {@code application.yml} file.
  * See {@link tech.jhipster.config.JHipsterProperties} for a good example.
@@ -96,13 +96,13 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class ApplicationProperties {
 
     private Foo foo;
-    // jhipster-needle-application-properties-property
+    // trinity-needle-application-properties-property
 
 
     private Foo getFoo() {
         return foo;
     };
-    // jhipster-needle-application-properties-property-getter
+    // trinity-needle-application-properties-property-getter
 
 
     public static Foo{} {
@@ -112,7 +112,7 @@ public class ApplicationProperties {
           return bar;
         }
     };
-    // jhipster-needle-application-properties-property-class
+    // trinity-needle-application-properties-property-class
 }
 ",
     "state": "modified",

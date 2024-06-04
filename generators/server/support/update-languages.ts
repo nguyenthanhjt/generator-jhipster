@@ -34,10 +34,10 @@ export function updateLanguagesInMailServiceITTask(this: BaseGenerator, { applic
   languagesDefinition?.forEach((language, i) => {
     newContent += `        "${language.languageTag}"${i !== languagesDefinition.length - 1 ? ',' : ''}\n`;
   });
-  newContent += '        // jhipster-needle-i18n-language-constant - JHipster will add/remove languages in this array\n    };';
+  newContent += '        // trinity-needle-i18n-language-constant - Trinity will add/remove languages in this array\n    };';
 
   this.editFile(`${javaPackageTestDir}/service/MailServiceIT.java`, { ignoreNonExisting }, content =>
-    content.replace(/private.*static.*String.*languages.*\{([^}]*jhipster-needle-i18n-language-constant[^}]*)\};/g, newContent),
+    content.replace(/private.*static.*String.*languages.*\{([^}]*trinity-needle-i18n-language-constant[^}]*)\};/g, newContent),
   );
 }
 

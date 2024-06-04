@@ -48,7 +48,7 @@ export default class extends needleClientBase {
       filePath,
       { ignoreNonExisting },
       createNeedleCallback({
-        needle: 'jhipster-needle-add-entity-to-menu',
+        needle: 'trinity-needle-add-entity-to-menu',
         contentToAdd: entityEntry,
         ignoreWhitespaces: true,
         contentToCheck: `<b-dropdown-item to="/${routerName}">`,
@@ -88,7 +88,7 @@ export default class extends needleClientBase {
       filePath,
       { ignoreNonExisting },
       createNeedleCallback({
-        needle: 'jhipster-needle-add-entity-to-router-import',
+        needle: 'trinity-needle-add-entity-to-router-import',
         contentToAdd: entityEntry,
         ignoreWhitespaces: true,
         contentToCheck: `import('@/entities/${folderName}/${fileName}.vue');`,
@@ -154,7 +154,7 @@ export default class extends needleClientBase {
       filePath,
       { ignoreNonExisting },
       createNeedleCallback({
-        needle: 'jhipster-needle-add-entity-to-router',
+        needle: 'trinity-needle-add-entity-to-router',
         contentToAdd: entityEntry,
         ignoreWhitespaces: true,
         contentToCheck: `path: '${entityFileName}'`,
@@ -172,7 +172,7 @@ export default class extends needleClientBase {
             `import ${entityName}Service from '@/entities/${entityFolderName}/${entityFileName}.service';`
         );
 
-    const rewriteFileModel = this.generateFileModel(filePath, 'jhipster-needle-add-entity-service-to-main-import', entityEntry);
+    const rewriteFileModel = this.generateFileModel(filePath, 'trinity-needle-add-entity-service-to-main-import', entityEntry);
     this.addBlockContentToFile(rewriteFileModel, errorMessage);
   }
 
@@ -185,7 +185,7 @@ export default class extends needleClientBase {
             `${entityInstance}Service: () => new ${entityName}Service(),`
         );
 
-    const rewriteFileModel = this.generateFileModel(filePath, 'jhipster-needle-add-entity-service-to-main', entityEntry);
+    const rewriteFileModel = this.generateFileModel(filePath, 'trinity-needle-add-entity-service-to-main', entityEntry);
     this.addBlockContentToFile(rewriteFileModel, errorMessage);
   }
 
@@ -200,7 +200,7 @@ export default class extends needleClientBase {
 
     const rewriteFileModel = this.generateFileModel(
       filePath,
-      'jhipster-needle-add-entity-service-to-entities-component-import',
+      'trinity-needle-add-entity-service-to-entities-component-import',
       entityEntry,
     );
     this.addBlockContentToFile(rewriteFileModel, errorMessage);
@@ -215,7 +215,7 @@ export default class extends needleClientBase {
     // prettier-ignore
     const entityEntry = `provide('${entityInstance}Service', () => new ${entityName}Service());`;
 
-    const rewriteFileModel = this.generateFileModel(filePath, 'jhipster-needle-add-entity-service-to-entities-component', entityEntry);
+    const rewriteFileModel = this.generateFileModel(filePath, 'trinity-needle-add-entity-service-to-entities-component', entityEntry);
     this.addBlockContentToFile(rewriteFileModel, errorMessage);
   }
 }

@@ -32,9 +32,9 @@ describe('generator - liquibase - needles', () => {
       .withFiles({
         'src/main/resources/config/liquibase/master.xml': `
 <databaseChangeLog>
-    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
-    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
-    <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
+    <!-- trinity - Trinity will add liquibase changelogs here -->
+    <!-- trinity-needle-liquibase-add-constraints-changelog - Trinity will add liquibase constraints changelogs here -->
+    <!-- trinity-needle-liquibase-add-incremental-changelog - Trinity will add incremental liquibase changelogs here -->
 </databaseChangeLog>
 `,
       })
