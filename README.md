@@ -1,12 +1,12 @@
-[![Logo][jhipster-image]][jhipster-url]
+[![Logo][trinity-image]][trinity-url]
 
 [![NPM version][npm-image]][npm-url] [![Downloads][npmcharts-image]][npmcharts-url] [![Gitter][gitter-badge-image]][gitter-badge-url] [![Known Vulnerabilities][snyk-image]][snyk-url] [![Package Health][health-image]][health-url]
 
 [![Generator Build Status][github-actions-generator-image]][github-actions-url] [![Angular Build Status][github-actions-angular-image]][github-actions-url] [![React Build Status][github-actions-react-image]][github-actions-url] [![Vue Build Status][github-actions-vue-image]][github-actions-url] [![Revved up by Develocity](https://img.shields.io/badge/Revved%20up%20by-Develocity-06A0CE?logo=Gradle&labelColor=02303A)](https://ge.jhipster.tech/scans)
 
-Greetings, Java Hipster!
+Greetings, Java Trinity Platform!
 
-Full documentation and information is available on our website at [https://www.jhipster.tech/][jhipster-url]
+Full documentation and information is available on our website at [https://www.trinity-technology.com/][trinity-url]
 
 Please read our [guidelines](/CONTRIBUTING.md#submitting-an-issue) before submitting an issue. If your issue is a bug, please use the bug template pre-populated [here][issue-template]. For feature requests and queries you can use [this template][feature-template]. If you have found a potential security issue, please read our security policy and contact us privately first: https://github.com/jhipster/generator-jhipster/security/policy
 
@@ -116,8 +116,8 @@ Additional builds at [hipster-labs/jhipster-daily-builds](https://github.com/hip
 [sonar-sample-code-smells-badge]: https://sonarcloud.io/api/project_badges/measure?project=jhipster-sample-application&metric=code_smells
 [sonar-sample-code-smells-url]: https://sonarcloud.io/project/issues?resolved=false&types=CODE_SMELL&id=jhipster-sample-application
 [sonar-vulnerabilities]: https://sonarcloud.io/api/project_badges/measure?project=jhipster-sample-application&metric=vulnerabilities
-[jhipster-image]: https://raw.githubusercontent.com/jhipster/jhipster-artwork/main/logos/v2/normal/V2%20JHipster%20RGB.png
-[jhipster-url]: https://www.jhipster.tech/
+[trinity-image]: ./images/Trinity-Technology-Logo.png
+[trinity-url]: https://www.trinity-technology.com/
 [npm-image]: https://badge.fury.io/js/generator-jhipster.svg
 [npm-url]: https://npmjs.org/package/generator-jhipster
 [github-actions-generator-image]: https://github.com/jhipster/generator-jhipster/workflows/Generator/badge.svg
