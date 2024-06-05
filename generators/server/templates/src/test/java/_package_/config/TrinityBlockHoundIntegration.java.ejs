@@ -21,7 +21,7 @@ package <%= packageName %>.config;
 import reactor.blockhound.BlockHound;
 import reactor.blockhound.integration.BlockHoundIntegration;
 
-public class JHipsterBlockHoundIntegration implements BlockHoundIntegration {
+public class TrinityBlockHoundIntegration implements BlockHoundIntegration {
     @Override
     public void applyTo(BlockHound.Builder builder) {
         builder.allowBlockingCallsInside("org.springframework.validation.beanvalidation.SpringValidatorAdapter", "validate");

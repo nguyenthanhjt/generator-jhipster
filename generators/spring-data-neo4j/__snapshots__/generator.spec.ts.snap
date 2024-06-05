@@ -335,7 +335,7 @@ exports[`generator - neo4j gateway-jwt-gradle-enableTranslation(true)-com.mycomp
   "src/test/java/com/mycompany/config/EmbeddedNeo4j.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/Neo4jTestContainer.java": {
@@ -1032,7 +1032,7 @@ exports[`generator - neo4j microservice-jwt-reactive(true)-gradle-enableTranslat
   "src/test/java/com/mycompany/config/EmbeddedNeo4j.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/Neo4jTestContainer.java": {
@@ -1367,7 +1367,7 @@ exports[`generator - neo4j microservice-oauth2-reactive(true)-gradle-enableTrans
   "src/test/java/com/mycompany/config/EmbeddedNeo4j.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/Neo4jTestContainer.java": {
@@ -2181,7 +2181,7 @@ exports[`generator - neo4j monolith-jwt-reactive(true)-gradle-enableTranslation(
   "src/test/java/com/mycompany/config/EmbeddedNeo4j.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/Neo4jTestContainer.java": {
@@ -2884,7 +2884,7 @@ exports[`generator - neo4j monolith-oauth2-reactive(true)-gradle-enableTranslati
   "src/test/java/com/mycompany/config/EmbeddedNeo4j.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/Neo4jTestContainer.java": {
@@ -3668,7 +3668,7 @@ exports[`generator - neo4j monolith-session-reactive(true)-gradle-enableTranslat
   "src/test/java/com/mycompany/config/EmbeddedNeo4j.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/Neo4jTestContainer.java": {

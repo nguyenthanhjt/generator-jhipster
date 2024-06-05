@@ -362,7 +362,7 @@ exports[`generator - couchbase gateway-jwt-gradle-enableTranslation(true)-com.my
   "src/test/java/com/mycompany/config/EmbeddedCouchbase.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -1086,7 +1086,7 @@ exports[`generator - couchbase microservice-jwt-reactive(true)-gradle-enableTran
   "src/test/java/com/mycompany/config/EmbeddedCouchbase.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -1436,7 +1436,7 @@ exports[`generator - couchbase microservice-oauth2-reactive(true)-gradle-enableT
   "src/test/java/com/mycompany/config/EmbeddedCouchbase.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -2289,7 +2289,7 @@ exports[`generator - couchbase monolith-jwt-reactive(true)-gradle-enableTranslat
   "src/test/java/com/mycompany/config/EmbeddedCouchbase.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -3025,7 +3025,7 @@ exports[`generator - couchbase monolith-oauth2-reactive(true)-gradle-enableTrans
   "src/test/java/com/mycompany/config/EmbeddedCouchbase.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -3848,7 +3848,7 @@ exports[`generator - couchbase monolith-session-reactive(true)-gradle-enableTran
   "src/test/java/com/mycompany/config/EmbeddedCouchbase.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {

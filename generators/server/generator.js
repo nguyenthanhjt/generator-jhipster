@@ -234,7 +234,7 @@ export default class JHipsterServerGenerator extends BaseApplicationGenerator {
           if (!application.reactive) throw new Error('Blockhound is only supported by reactive applications');
 
           this.editFile(
-            `${application.javaPackageTestDir}config/JHipsterBlockHoundIntegration.java`,
+            `${application.javaPackageTestDir}config/TrinityBlockHoundIntegration.java`,
             createNeedleCallback({
               needle: 'blockhound-integration',
               contentToAdd: `builder.allowBlockingCallsInside("${classPath}", "${method}");`,

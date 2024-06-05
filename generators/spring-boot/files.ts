@@ -45,7 +45,7 @@ const reactiveConfigFiles = {
     {
       path: `${SERVER_TEST_SRC_DIR}_package_/`,
       renameTo: moveToJavaPackageTestDir,
-      templates: ['config/JHipsterBlockHoundIntegration.java'],
+      templates: ['config/TrinityBlockHoundIntegration.java'],
     },
     {
       path: SERVER_TEST_RES_DIR,

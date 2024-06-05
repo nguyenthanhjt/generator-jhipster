@@ -308,7 +308,7 @@ exports[`generator - sql gateway-jwt-mysql-gradle-enableTranslation(true)-com.my
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MysqlTestContainer.java": {
@@ -745,7 +745,7 @@ exports[`generator - sql gateway-jwt-oracle-gradle-enableTranslation(true)-com.m
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -1170,7 +1170,7 @@ exports[`generator - sql gateway-jwt-postgresql-gradle-enableTranslation(true)-c
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/PostgreSqlTestContainer.java": {
@@ -1556,7 +1556,7 @@ exports[`generator - sql gateway-oauth2-mariadb-gradle-enableTranslation(true)-c
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MariadbTestContainer.java": {
@@ -1924,7 +1924,7 @@ exports[`generator - sql gateway-oauth2-mssql-gradle-enableTranslation(true)-com
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MsSqlTestContainer.java": {
@@ -2211,7 +2211,7 @@ exports[`generator - sql microservice-jwt-mariadb-reactive(true)-gradle-enableTr
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MariadbTestContainer.java": {
@@ -2477,7 +2477,7 @@ exports[`generator - sql microservice-jwt-mssql-reactive(true)-gradle-enableTran
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MsSqlTestContainer.java": {
@@ -3003,7 +3003,7 @@ exports[`generator - sql microservice-jwt-mysql-reactive(true)-gradle-enableTran
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MysqlTestContainer.java": {
@@ -3517,7 +3517,7 @@ exports[`generator - sql microservice-jwt-oracle-reactive(true)-gradle-enableTra
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -4028,7 +4028,7 @@ exports[`generator - sql microservice-jwt-postgresql-reactive(true)-gradle-enabl
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/PostgreSqlTestContainer.java": {
@@ -4542,7 +4542,7 @@ exports[`generator - sql microservice-oauth2-mariadb-reactive(true)-gradle-enabl
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MariadbTestContainer.java": {
@@ -5035,7 +5035,7 @@ exports[`generator - sql microservice-oauth2-mssql-reactive(true)-gradle-enableT
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MsSqlTestContainer.java": {
@@ -5292,7 +5292,7 @@ exports[`generator - sql microservice-oauth2-mysql-reactive(true)-gradle-enableT
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MysqlTestContainer.java": {
@@ -5549,7 +5549,7 @@ exports[`generator - sql microservice-oauth2-oracle-reactive(true)-gradle-enable
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -5797,7 +5797,7 @@ exports[`generator - sql microservice-oauth2-postgresql-reactive(true)-gradle-en
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/PostgreSqlTestContainer.java": {
@@ -6482,7 +6482,7 @@ exports[`generator - sql monolith-jwt-mariadb-reactive(true)-gradle-enableTransl
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MariadbTestContainer.java": {
@@ -7200,7 +7200,7 @@ exports[`generator - sql monolith-jwt-mssql-reactive(true)-gradle-enableTranslat
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MsSqlTestContainer.java": {
@@ -7909,7 +7909,7 @@ exports[`generator - sql monolith-jwt-mysql-reactive(true)-gradle-enableTranslat
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MysqlTestContainer.java": {
@@ -8612,7 +8612,7 @@ exports[`generator - sql monolith-jwt-oracle-reactive(true)-gradle-enableTransla
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -9327,7 +9327,7 @@ exports[`generator - sql monolith-jwt-postgresql-reactive(true)-gradle-enableTra
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/PostgreSqlTestContainer.java": {
@@ -9907,7 +9907,7 @@ exports[`generator - sql monolith-oauth2-mariadb-reactive(true)-gradle-enableTra
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MariadbTestContainer.java": {
@@ -10478,7 +10478,7 @@ exports[`generator - sql monolith-oauth2-mssql-reactive(true)-gradle-enableTrans
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MsSqlTestContainer.java": {
@@ -11061,7 +11061,7 @@ exports[`generator - sql monolith-oauth2-mysql-reactive(true)-gradle-enableTrans
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MysqlTestContainer.java": {
@@ -11632,7 +11632,7 @@ exports[`generator - sql monolith-oauth2-oracle-reactive(true)-gradle-enableTran
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -12200,7 +12200,7 @@ exports[`generator - sql monolith-oauth2-postgresql-reactive(true)-gradle-enable
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/PostgreSqlTestContainer.java": {
@@ -12861,7 +12861,7 @@ exports[`generator - sql monolith-session-mariadb-reactive(true)-gradle-enableTr
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MariadbTestContainer.java": {
@@ -13510,7 +13510,7 @@ exports[`generator - sql monolith-session-mssql-reactive(true)-gradle-enableTran
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MsSqlTestContainer.java": {
@@ -14159,7 +14159,7 @@ exports[`generator - sql monolith-session-mysql-reactive(true)-gradle-enableTran
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/MysqlTestContainer.java": {
@@ -14805,7 +14805,7 @@ exports[`generator - sql monolith-session-oracle-reactive(true)-gradle-enableTra
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -15451,7 +15451,7 @@ exports[`generator - sql monolith-session-postgresql-reactive(true)-gradle-enabl
   "src/test/java/com/mycompany/config/EmbeddedSQL.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/PostgreSqlTestContainer.java": {

@@ -344,7 +344,7 @@ exports[`generator - cassandra gateway-jwt-gradle-enableTranslation(true)-com.my
   "src/test/java/com/mycompany/config/EmbeddedCassandra.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -1059,7 +1059,7 @@ exports[`generator - cassandra microservice-jwt-reactive(true)-gradle-enableTran
   "src/test/java/com/mycompany/config/EmbeddedCassandra.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -1409,7 +1409,7 @@ exports[`generator - cassandra microservice-oauth2-reactive(true)-gradle-enableT
   "src/test/java/com/mycompany/config/EmbeddedCassandra.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -2226,7 +2226,7 @@ exports[`generator - cassandra monolith-jwt-reactive(true)-gradle-enableTranslat
   "src/test/java/com/mycompany/config/EmbeddedCassandra.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -2959,7 +2959,7 @@ exports[`generator - cassandra monolith-oauth2-reactive(true)-gradle-enableTrans
   "src/test/java/com/mycompany/config/EmbeddedCassandra.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
@@ -3746,7 +3746,7 @@ exports[`generator - cassandra monolith-session-reactive(true)-gradle-enableTran
   "src/test/java/com/mycompany/config/EmbeddedCassandra.java": {
     "stateCleared": "modified",
   },
-  "src/test/java/com/mycompany/config/JHipsterBlockHoundIntegration.java": {
+  "src/test/java/com/mycompany/config/TrinityBlockHoundIntegration.java": {
     "stateCleared": "modified",
   },
   "src/test/java/com/mycompany/config/SpringBootTestClassOrderer.java": {
