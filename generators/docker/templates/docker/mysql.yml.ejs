@@ -23,7 +23,7 @@ services:
     image: <%- dockerContainers.mysql %>
     volumes:
       - ./config/mysql:/etc/mysql/conf.d
-    #   - ~/volumes/jhipster/<%= baseName %>/mysql/:/var/lib/mysql/
+    #   - ~/volumes/trinity/<%= baseName %>/mysql/:/var/lib/mysql/
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
       - MYSQL_DATABASE=<%= baseName.toLowerCase() %>

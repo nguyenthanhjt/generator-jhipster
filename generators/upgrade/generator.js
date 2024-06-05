@@ -90,7 +90,7 @@ export default class UpgradeGenerator extends BaseGenerator {
         }
 
         if (!this.config.get('baseName')) {
-          throw new Error('Current directory does not contain a JHipster project.');
+          throw new Error('Current directory does not contain a Trinity project.');
         }
       },
 

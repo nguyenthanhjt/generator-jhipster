@@ -1,7 +1,7 @@
 <%#
- Copyright 2013-2024 the original author or authors from the JHipster project.
+ Copyright 2013-2024 the original author or authors from the Trinity Platform project.
 
- This file is part of the JHipster project, see https://jhipster.github.io/
+ This file is part of the Trinity Platform project, see https://www.trinity-technology.com/
  for more information.
 
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -56,7 +56,6 @@ public class CustomClaimConverter implements Converter<Map<String, Object>, Map<
 
     private final ClientRegistration registration;
 
-    // See https://github.com/jhipster/generator-jhipster/issues/18868
     // We don't use a distributed cache or the user selected cache implementation here on purpose
     private final Cache<String, ObjectNode> users = Caffeine.newBuilder()
         .maximumSize(10_000)

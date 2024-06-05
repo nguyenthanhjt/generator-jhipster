@@ -45,10 +45,10 @@ describe(`generator - ${generator}`, () => {
   });
   it('should throw without baseName', async () => {
     await expect(helpers.runJHipster(generator).withFiles({ '.yo-rc.json': { 'generator-jhipster': { foo: 'bar' } } })).rejects.toThrow(
-      'Current directory does not contain a JHipster project.',
+      'Current directory does not contain a Trinity Platform project.',
     );
   });
-  it('should throw with JHipster less than 7.9.3', async () => {
+  it('should throw with Trinity Platform less than 7.9.3', async () => {
     await expect(
       helpers
         .runJHipster(generator)

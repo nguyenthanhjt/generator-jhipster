@@ -22,7 +22,7 @@ services:
   postgresql:
     image: <%- dockerContainers.postgresql %>
     # volumes:
-    #   - ~/volumes/jhipster/<%= baseName %>/postgresql/:/var/lib/postgresql/data/
+    #   - ~/volumes/trinity/<%= baseName %>/postgresql/:/var/lib/postgresql/data/
     environment:
       - POSTGRES_USER=<%= baseName %>
       - POSTGRES_PASSWORD=

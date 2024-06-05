@@ -24,7 +24,7 @@ services:
     volumes:
       - ./config/mariadb:/etc/mariadb/conf.d
     # volumes:
-    #   - ~/volumes/jhipster/<%= baseName %>/mariadb/:/var/lib/mariadb/
+    #   - ~/volumes/trinity/<%= baseName %>/mariadb/:/var/lib/mariadb/
     environment:
       - MARIADB_ALLOW_EMPTY_ROOT_PASSWORD=yes
       - MARIADB_DATABASE=<%= baseName.toLowerCase() %>

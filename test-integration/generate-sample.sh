@@ -36,7 +36,7 @@ function generateProject() {
         exit 1
     else
         mkdir -p "$JHI_FOLDER_APP"/.jhipster/
-        echo "*** Empty folder, let's generate JHipster project in: $JHI_FOLDER_APP"
+        echo "*** Empty folder, let's generate Trinity project in: $JHI_FOLDER_APP"
     fi
 
     pushd scripts/

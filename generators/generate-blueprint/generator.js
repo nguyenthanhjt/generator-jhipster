@@ -378,7 +378,7 @@ To begin to work:
 - launch: ${chalk.yellow.bold('npm install')}
 - link: ${chalk.yellow.bold('npm link')}
 - link JHipster: ${chalk.yellow.bold('npm link generator-jhipster')}
-- test your module in a JHipster project:
+- test your module in a Trinity project:
     - create a new directory and go into it
     - link the blueprint: ${chalk.yellow.bold(`npm link generator-jhipster-${this.moduleName}`)}
     - launch JHipster with flags: ${chalk.yellow.bold(`jhipster --blueprints ${this.moduleName}`)}

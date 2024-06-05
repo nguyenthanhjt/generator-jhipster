@@ -46,7 +46,7 @@ if (
   existsSync(join(appFolderOrWorkspaceRoot, 'node_modules/.bin/jhipster'))
 ) {
   logger.warn(`Since Trinity v8, the trinity command will not use the locally installed trinity-starter.
-    If you want to execute the locally installed trinity-starter, run: ${chalk.yellow('npx jhipster')}`);
+    If you want to execute the locally installed trinity-starter, run: ${chalk.yellow('npx trinity')}`);
 }
 
 export default runJHipster().catch(done);

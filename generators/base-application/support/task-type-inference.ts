@@ -1,5 +1,5 @@
 /*
- * This file is part of the JHipster project, see https://www.jhipster.tech/
+ * This file is part of the Trinity Platform project, see https://www.trinity-technology.com/
  * for more information.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");

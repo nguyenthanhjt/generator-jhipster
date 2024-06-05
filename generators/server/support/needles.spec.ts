@@ -38,7 +38,7 @@ describe('generator - server - support - needles', () => {
       it('with a non existing needle', () => {
         const application: SpringBootApplication = runResult.generator.sharedData.getApplication();
         expect(() => insertContentIntoApplicationProperties.call(runResult.generator, application, { foo: 'foo' })).toThrow(
-          /Missing required jhipster-needle application-properties-foo not found at/,
+          /Missing required trinity-needle application-properties-foo not found at/,
         );
       });
 

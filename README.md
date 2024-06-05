@@ -67,7 +67,7 @@ Additional builds at [hipster-labs/jhipster-daily-builds](https://github.com/hip
 | [![Docker Image][docker-image.yaml-badge]][docker-image.yaml-link]                   |
 | [![Official Windows][windows.yaml-badge]][windows.yaml-link]                         |
 
-## Analysis of the sample JHipster project
+## Analysis of the sample Trinity project
 
 [![sonar-quality-gate][sonar-quality-gate]][sonar-url] [![sonar-coverage][sonar-coverage]][sonar-url] [![sonar-bugs][sonar-bugs]][sonar-url] [![sonar-vulnerabilities][sonar-vulnerabilities]][sonar-url] [![sonar-sample-code-smells-badge][sonar-sample-code-smells-badge]][sonar-sample-code-smells-url]
 
